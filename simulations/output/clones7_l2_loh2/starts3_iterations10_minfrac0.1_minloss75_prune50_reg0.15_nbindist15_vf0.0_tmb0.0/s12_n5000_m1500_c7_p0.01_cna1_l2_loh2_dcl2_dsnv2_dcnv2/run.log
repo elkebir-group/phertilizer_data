@@ -1,0 +1,3391 @@
+Input data:
+    chr  mutation_id  cell_id base  var  total
+0  chr8            0       69    C    0      1
+1  chr8            0      372    C    0      1
+2  chr8            0      447    C    0      1
+3  chr8            0      643    C    0      1
+4  chr8            0      816    C    0      1
+Phertilizer is running in infinite sites mode...
+
+Starting tilling phase....
+func:'till' args:[(<phertilizer.Phertilizer object at 0x7fde80bc5340>, 0.0, 0.0, 5, 0.001, 12, False, 1.0, 0.15), {}] took: 25.9474 sec
+Tilling phase complete!
+Phertilizing a tree with n:4614 cells and m: 1432 SNVs
+
+Starting planting phase....
+Starting k-clonal tree inference for seed:
+Cells: 4614 Muts: 1432 Ancestral Muts: 0 
+Sprouting seed:
+Cells: 4614 Muts: 1432 Ancestral Muts: 0 
+Sprouting a branching tree from seed ...
+(Generator(PCG64) at 0x7FDE6E6772E0,)
+Jump Percentage: 0.9999999999999912 First Eig Val: -9.049464743320741e-16 First Gap: 5.44141983123399e-16 Largest Gap: 0.5605987355472184 Number of Clusters:3
+CellsA: 850 CellsB: 3764
+MutsA: 521 mutsB: 423
+Jump Percentage: 0.9999999999999756 First Eig Val: -3.75724598547094e-17 First Gap: 6.481710989359927e-16 Largest Gap: 0.500163863665518 Number of Clusters:3
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 3764 Muts: 423 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Jump Percentage: 0.9999999999999789 First Eig Val: -9.367659250857533e-16 First Gap: 1.5612355509676619e-15 Largest Gap: 0.5582538752895082 Number of Clusters:3
+CellsA: 850 CellsB: 3764
+MutsA: 521 mutsB: 423
+Jump Percentage: 0.9999999999999756 First Eig Val: -3.75724598547094e-17 First Gap: 6.481710989359927e-16 Largest Gap: 0.500163863665518 Number of Clusters:3
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 3764 Muts: 423 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Jump Percentage: 0.9999999999999815 First Eig Val: -1.494835990273156e-16 First Gap: 2.0499194603025153e-16 Largest Gap: 0.5590458705532492 Number of Clusters:3
+CellsA: 3764 CellsB: 850
+MutsA: 423 mutsB: 521
+Jump Percentage: 0.9999999999999756 First Eig Val: -3.75724598547094e-17 First Gap: 6.481710989359927e-16 Largest Gap: 0.500163863665518 Number of Clusters:3
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 3764 Muts: 423 LostMuts: 0
+Node: 2 Cells: 850 Muts: 521 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Finding the maximum likelihood tree out of 3 trees....
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 3764 Muts: 423 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 0 LogLikelihood: 5549451.849121595
+Variant LogLikelihood: -53506.83449159065 
+RDR LogLikelihood: 5602958.683613186
+
+Clonal Tree 1 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 3764 Muts: 423 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 1 LogLikelihood: 5549451.849121595
+Variant LogLikelihood: -53506.83449159065 
+RDR LogLikelihood: 5602958.683613186
+
+Clonal Tree 2 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 3764 Muts: 423 LostMuts: 0
+Node: 2 Cells: 850 Muts: 521 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 2 LogLikelihood: 5549451.849121595
+Variant LogLikelihood: -53506.83449159065 
+RDR LogLikelihood: 5602958.683613186
+
+Sprouted tree:
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 3764 Muts: 423 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Cells: 850 Muts: 521 Ancestral Muts: 488 
+Cells: 3764 Muts: 423 Ancestral Muts: 488 
+Sprouting seed:
+Cells: 4614 Muts: 1432 Ancestral Muts: 0 
+Sprouting a linear tree from seed ...
+Jump Percentage: 0.9999999999999807 First Eig Val: -1.1102070590676758e-15 First Gap: 1.2211125701501993e-15 Largest Gap: 0.49994236372286427 Number of Clusters:3
+start:0 iteration:0
+CellsA: 3764 CellsB: 850
+MutsA: 793 MutsB: 639
+Jump Percentage: 0.9999999999999866 First Eig Val: 1.116527679256298e-16 First Gap: 8.907240756401654e-16 Largest Gap: 0.46468773306620376 Number of Clusters:3
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 3764 Muts: 793 LostMuts: 0
+Node: 1 Cells: 850 Muts: 639 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Jump Percentage: 0.9999999999999429 First Eig Val: -1.9300494770928653e-15 First Gap: 1.5520019035953026e-15 Largest Gap: 0.5084330938834554 Number of Clusters:3
+start:1 iteration:0
+CellsA: 3764 CellsB: 850
+MutsA: 793 MutsB: 639
+Jump Percentage: 0.9999999999999866 First Eig Val: 1.116527679256298e-16 First Gap: 8.907240756401654e-16 Largest Gap: 0.46468773306620376 Number of Clusters:3
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 3764 Muts: 793 LostMuts: 0
+Node: 1 Cells: 850 Muts: 639 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Jump Percentage: 0.9999999999999923 First Eig Val: -6.449963562773621e-16 First Gap: 6.727564266289944e-16 Largest Gap: 0.5177774492002298 Number of Clusters:3
+start:2 iteration:0
+CellsA: 3764 CellsB: 850
+MutsA: 793 MutsB: 639
+Jump Percentage: 0.9999999999999866 First Eig Val: 1.116527679256298e-16 First Gap: 8.907240756401654e-16 Largest Gap: 0.46468773306620376 Number of Clusters:3
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 3764 Muts: 793 LostMuts: 0
+Node: 1 Cells: 850 Muts: 639 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 3764 Muts: 793 LostMuts: 0
+Node: 1 Cells: 850 Muts: 639 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Normalized Likelihood: -0.7318252191504105
+Jump Percentage: 0.9999999999999726 First Eig Val: -8.1423895140767e-17 First Gap: 8.1423895140767e-17 Largest Gap: 0.6402544065478161 Number of Clusters:2
+start:0 iteration:0
+CellsA: 2649 CellsB: 1115
+MutsA: 615 MutsB: 817
+Jump Percentage: 0.9999999999999901 First Eig Val: -3.5523270219304945e-16 First Gap: 8.43627762338825e-16 Largest Gap: 0.6541484231778684 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2649 Muts: 615 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 817 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Jump Percentage: 0.9999999999999601 First Eig Val: 6.018787655762136e-16 First Gap: 9.530245692359151e-17 Largest Gap: 0.6424598357508737 Number of Clusters:2
+start:1 iteration:0
+CellsA: 2649 CellsB: 1115
+MutsA: 615 MutsB: 817
+Jump Percentage: 0.9999999999999901 First Eig Val: -3.5523270219304945e-16 First Gap: 8.43627762338825e-16 Largest Gap: 0.6541484231778684 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2649 Muts: 615 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 817 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Jump Percentage: 0.999999999999969 First Eig Val: 1.2873076937718187e-16 First Gap: 7.312340806410679e-16 Largest Gap: 0.6271461299735595 Number of Clusters:2
+start:2 iteration:0
+CellsA: 2649 CellsB: 1115
+MutsA: 615 MutsB: 817
+Jump Percentage: 0.9999999999999901 First Eig Val: -3.5523270219304945e-16 First Gap: 8.43627762338825e-16 Largest Gap: 0.6541484231778684 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2649 Muts: 615 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 817 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2649 Muts: 615 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 817 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Normalized Likelihood: -0.5854674371478787
+Using SNV kernel only
+Jump Percentage: 0.15625039374929348 First Eig Val: -1.5201520801060392e-15 First Gap: 0.8716407302450576 Largest Gap: 0.8716407302450576 Number of Clusters:1
+start:0 iteration:0
+CellsA: 2197 CellsB: 452
+MutsA: 525 MutsB: 907
+Using SNV kernel only
+Jump Percentage: 0.10938712972128342 First Eig Val: 2.3017551649079204e-15 First Gap: 0.6985321347888935 Largest Gap: 0.6985321347888935 Number of Clusters:1
+start:0 iteration:1
+CellsA: 1832 CellsB: 817
+MutsA: 457 MutsB: 975
+Using SNV kernel only
+Jump Percentage: 0.1192950376046676 First Eig Val: 2.6705794587669822e-15 First Gap: 0.6917771974485297 Largest Gap: 0.6917771974485297 Number of Clusters:1
+start:0 iteration:2
+CellsA: 1701 CellsB: 948
+MutsA: 439 MutsB: 993
+Using SNV kernel only
+Jump Percentage: 0.1162299498742566 First Eig Val: -2.6740790287462366e-15 First Gap: 0.6807075676775145 Largest Gap: 0.6807075676775145 Number of Clusters:1
+start:0 iteration:3
+CellsA: 1664 CellsB: 985
+MutsA: 432 MutsB: 1000
+Using SNV kernel only
+Jump Percentage: 0.11584756975390591 First Eig Val: 3.1819591190938732e-15 First Gap: 0.6776665172657411 Largest Gap: 0.6776665172657411 Number of Clusters:1
+start:0 iteration:4
+CellsA: 1649 CellsB: 1000
+MutsA: 426 MutsB: 1006
+Using SNV kernel only
+Jump Percentage: 0.11658456073939824 First Eig Val: 1.368744989231224e-15 First Gap: 0.6752054349725256 Largest Gap: 0.6752054349725256 Number of Clusters:1
+start:0 iteration:5
+CellsA: 1638 CellsB: 1011
+MutsA: 422 MutsB: 1010
+Using SNV kernel only
+Jump Percentage: 0.11650647082044037 First Eig Val: 1.4690834039563575e-15 First Gap: 0.6726609287417953 Largest Gap: 0.6726609287417953 Number of Clusters:1
+start:0 iteration:6
+CellsA: 2022 CellsB: 627
+MutsA: 420 MutsB: 1012
+Using SNV kernel only
+Jump Percentage: 0.11889852624231079 First Eig Val: -9.033059078166961e-16 First Gap: 0.6756444572500007 Largest Gap: 0.6756444572500007 Number of Clusters:1
+start:0 iteration:7
+CellsA: 1664 CellsB: 985
+MutsA: 412 MutsB: 1020
+Using SNV kernel only
+Jump Percentage: 0.12085497834877966 First Eig Val: 1.0349112375407984e-15 First Gap: 0.6713792222511682 Largest Gap: 0.6713792222511682 Number of Clusters:1
+start:0 iteration:8
+CellsA: 1645 CellsB: 1004
+MutsA: 405 MutsB: 1027
+Using SNV kernel only
+Jump Percentage: 0.11948704161950592 First Eig Val: 1.076729184554105e-15 First Gap: 0.6689987653430379 Largest Gap: 0.6689987653430379 Number of Clusters:1
+start:0 iteration:9
+CellsA: 2096 CellsB: 553
+MutsA: 413 MutsB: 1019
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2096 Muts: 413 LostMuts: 0
+Node: 1 Cells: 2518 Muts: 1019 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Using SNV kernel only
+Jump Percentage: 0.09997126467222651 First Eig Val: -2.7751942040484694e-16 First Gap: 0.7713409249716219 Largest Gap: 0.7713409249716219 Number of Clusters:1
+start:1 iteration:0
+CellsA: 2248 CellsB: 401
+MutsA: 543 MutsB: 889
+Using SNV kernel only
+Jump Percentage: 0.12541459222461596 First Eig Val: -1.7101522979449256e-15 First Gap: 0.7160288322273958 Largest Gap: 0.7160288322273958 Number of Clusters:1
+start:1 iteration:1
+CellsA: 1921 CellsB: 728
+MutsA: 486 MutsB: 946
+Using SNV kernel only
+Jump Percentage: 0.11882137499254625 First Eig Val: 1.1027161627647054e-15 First Gap: 0.6768648593239103 Largest Gap: 0.6768648593239103 Number of Clusters:1
+start:1 iteration:2
+CellsA: 1804 CellsB: 845
+MutsA: 463 MutsB: 969
+Using SNV kernel only
+Jump Percentage: 0.12045060884461507 First Eig Val: 4.2820934380338244e-15 First Gap: 0.6625046852050934 Largest Gap: 0.6625046852050934 Number of Clusters:1
+start:1 iteration:3
+CellsA: 2065 CellsB: 584
+MutsA: 455 MutsB: 977
+Using SNV kernel only
+Jump Percentage: 0.11875915957634477 First Eig Val: 1.798142808696314e-15 First Gap: 0.6592763441849658 Largest Gap: 0.6592763441849658 Number of Clusters:1
+start:1 iteration:4
+CellsA: 1735 CellsB: 914
+MutsA: 444 MutsB: 988
+Using SNV kernel only
+Jump Percentage: 0.1209934969248395 First Eig Val: -2.239752709332848e-15 First Gap: 0.6525529311687601 Largest Gap: 0.6525529311687601 Number of Clusters:1
+start:1 iteration:5
+CellsA: 1713 CellsB: 936
+MutsA: 436 MutsB: 996
+Using SNV kernel only
+Jump Percentage: 0.12057713923762109 First Eig Val: 1.3435787174484198e-15 First Gap: 0.6488108642517517 Largest Gap: 0.6488108642517517 Number of Clusters:1
+start:1 iteration:6
+CellsA: 1696 CellsB: 953
+MutsA: 430 MutsB: 1002
+Using SNV kernel only
+Jump Percentage: 0.12191084830807643 First Eig Val: 1.6019456411189743e-15 First Gap: 0.6455929281883548 Largest Gap: 0.6455929281883548 Number of Clusters:1
+start:1 iteration:7
+CellsA: 1683 CellsB: 966
+MutsA: 429 MutsB: 1003
+Using SNV kernel only
+Jump Percentage: 0.12175567031713141 First Eig Val: 3.15780979552935e-15 First Gap: 0.6443065106959809 Largest Gap: 0.6443065106959809 Number of Clusters:1
+start:1 iteration:8
+CellsA: 1681 CellsB: 968
+MutsA: 428 MutsB: 1004
+Using SNV kernel only
+Jump Percentage: 0.12187521030451641 First Eig Val: 1.7670940099318065e-15 First Gap: 0.642998247440722 Largest Gap: 0.642998247440722 Number of Clusters:1
+start:1 iteration:9
+CellsA: 2112 CellsB: 537
+MutsA: 429 MutsB: 1003
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2112 Muts: 429 LostMuts: 0
+Node: 1 Cells: 2502 Muts: 1003 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Using SNV kernel only
+Jump Percentage: 0.15410687391767208 First Eig Val: 1.0838992118780463e-17 First Gap: 0.8086320158260447 Largest Gap: 0.8086320158260447 Number of Clusters:1
+start:2 iteration:0
+CellsA: 2204 CellsB: 445
+MutsA: 524 MutsB: 908
+Using SNV kernel only
+Jump Percentage: 0.09702767010417876 First Eig Val: 3.805855396788721e-15 First Gap: 0.649420236282989 Largest Gap: 0.649420236282989 Number of Clusters:1
+start:2 iteration:1
+CellsA: 1831 CellsB: 818
+MutsA: 466 MutsB: 966
+Using SNV kernel only
+Jump Percentage: 0.10857712315925704 First Eig Val: 7.705462834458743e-16 First Gap: 0.6666666741525992 Largest Gap: 0.6666666741525992 Number of Clusters:1
+start:2 iteration:2
+CellsA: 1727 CellsB: 922
+MutsA: 439 MutsB: 993
+Using SNV kernel only
+Jump Percentage: 0.10957173031718292 First Eig Val: -9.122346611956725e-16 First Gap: 0.650834946651957 Largest Gap: 0.650834946651957 Number of Clusters:1
+start:2 iteration:3
+CellsA: 1674 CellsB: 975
+MutsA: 432 MutsB: 1000
+Using SNV kernel only
+Jump Percentage: 0.1100554903140367 First Eig Val: -1.3264542597010431e-15 First Gap: 0.6472510151783789 Largest Gap: 0.6472510151783789 Number of Clusters:1
+start:2 iteration:4
+CellsA: 1659 CellsB: 990
+MutsA: 430 MutsB: 1002
+Using SNV kernel only
+Jump Percentage: 0.1109040016819417 First Eig Val: -1.2699103986669407e-15 First Gap: 0.6464457162187495 Largest Gap: 0.6464457162187495 Number of Clusters:1
+start:2 iteration:5
+CellsA: 1654 CellsB: 995
+MutsA: 429 MutsB: 1003
+Using SNV kernel only
+Jump Percentage: 0.11138700387643644 First Eig Val: 2.0451290424355567e-15 First Gap: 0.6464866643901761 Largest Gap: 0.6464866643901761 Number of Clusters:1
+start:2 iteration:6
+CellsA: 1651 CellsB: 998
+MutsA: 429 MutsB: 1003
+Using SNV kernel only
+Jump Percentage: 0.11138700387643644 First Eig Val: 2.0451290424355567e-15 First Gap: 0.6464866643901761 Largest Gap: 0.6464866643901761 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1651 Muts: 429 LostMuts: 0
+Node: 1 Cells: 2963 Muts: 1003 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+adding tree to candidate list:
+Clonal Tree 2 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1651 Muts: 429 LostMuts: 0
+Node: 1 Cells: 2963 Muts: 1003 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Normalized Likelihood: -0.45915304550907227
+Using SNV kernel only
+Jump Percentage: 0.18066980724908327 First Eig Val: -1.1154560979342633e-15 First Gap: 0.7031636347693073 Largest Gap: 0.7031636347693073 Number of Clusters:1
+start:0 iteration:0
+CellsA: 484 CellsB: 1167
+MutsA: 202 MutsB: 1230
+Using SNV kernel only
+Jump Percentage: 0.164802819198411 First Eig Val: -1.7161053700453031e-15 First Gap: 0.6703864779684201 Largest Gap: 0.6703864779684201 Number of Clusters:1
+start:0 iteration:1
+CellsA: 531 CellsB: 1120
+MutsA: 197 MutsB: 1235
+Using SNV kernel only
+Jump Percentage: 0.16304294673084438 First Eig Val: 1.7742098236840908e-16 First Gap: 0.669970305803704 Largest Gap: 0.669970305803704 Number of Clusters:1
+start:0 iteration:2
+CellsA: 529 CellsB: 1122
+MutsA: 197 MutsB: 1235
+Using SNV kernel only
+Jump Percentage: 0.16304294673084438 First Eig Val: 1.7742098236840908e-16 First Gap: 0.669970305803704 Largest Gap: 0.669970305803704 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 529 Muts: 197 LostMuts: 0
+Node: 1 Cells: 4085 Muts: 1235 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Using SNV kernel only
+Jump Percentage: 0.18267035584928334 First Eig Val: -1.6431668314469084e-15 First Gap: 0.6869826671822977 Largest Gap: 0.6869826671822977 Number of Clusters:1
+start:1 iteration:0
+CellsA: 538 CellsB: 1113
+MutsA: 213 MutsB: 1219
+Using SNV kernel only
+Jump Percentage: 0.20526589056773875 First Eig Val: 4.655507411342398e-16 First Gap: 0.6682861311809785 Largest Gap: 0.6682861311809785 Number of Clusters:1
+start:1 iteration:1
+CellsA: 561 CellsB: 1090
+MutsA: 211 MutsB: 1221
+Using SNV kernel only
+Jump Percentage: 0.2024674395690436 First Eig Val: 8.196172324357955e-16 First Gap: 0.6668818964723188 Largest Gap: 0.6668818964723188 Number of Clusters:1
+start:1 iteration:2
+CellsA: 565 CellsB: 1086
+MutsA: 211 MutsB: 1221
+Using SNV kernel only
+Jump Percentage: 0.2024674395690436 First Eig Val: 8.196172324357955e-16 First Gap: 0.6668818964723188 Largest Gap: 0.6668818964723188 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 565 Muts: 211 LostMuts: 0
+Node: 1 Cells: 4049 Muts: 1221 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Using SNV kernel only
+Jump Percentage: 0.1682604508535776 First Eig Val: -8.454796451732541e-17 First Gap: 0.7001833033586753 Largest Gap: 0.7001833033586753 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1060 CellsB: 591
+MutsA: 344 MutsB: 1088
+Using SNV kernel only
+Jump Percentage: 0.15373538791116376 First Eig Val: 4.754986101890689e-16 First Gap: 0.8598529090607205 Largest Gap: 0.8598529090607205 Number of Clusters:1
+start:2 iteration:1
+CellsA: 1424 CellsB: 227
+MutsA: 334 MutsB: 1098
+Using SNV kernel only
+Jump Percentage: 0.13128347348779681 First Eig Val: 3.0066108339645605e-15 First Gap: 0.8492289944466639 Largest Gap: 0.8492289944466639 Number of Clusters:1
+start:2 iteration:2
+CellsA: 1406 CellsB: 245
+MutsA: 333 MutsB: 1099
+Using SNV kernel only
+Jump Percentage: 0.15516249448437308 First Eig Val: -4.001860980416225e-15 First Gap: 0.8629160037294998 Largest Gap: 0.8629160037294998 Number of Clusters:1
+start:2 iteration:3
+CellsA: 1405 CellsB: 246
+MutsA: 333 MutsB: 1099
+Using SNV kernel only
+Jump Percentage: 0.15516249448437308 First Eig Val: -4.001860980416225e-15 First Gap: 0.8629160037294998 Largest Gap: 0.8629160037294998 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 3209 Muts: 1099 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+adding tree to candidate list:
+Clonal Tree 2 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 3209 Muts: 1099 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Normalized Likelihood: -0.4066922709093477
+Using SNV kernel only
+Jump Percentage: 0.1865875830932674 First Eig Val: -1.4790150867618618e-16 First Gap: 0.6953653418457347 Largest Gap: 0.6953653418457347 Number of Clusters:1
+start:0 iteration:0
+CellsA: 479 CellsB: 926
+MutsA: 189 MutsB: 1243
+Using SNV kernel only
+Jump Percentage: 0.26295692074326205 First Eig Val: -4.020511783390746e-17 First Gap: 0.5910683092659732 Largest Gap: 0.5910683092659732 Number of Clusters:1
+start:0 iteration:1
+CellsA: 524 CellsB: 881
+MutsA: 186 MutsB: 1246
+Using SNV kernel only
+Jump Percentage: 0.26385778547751143 First Eig Val: 1.4527900723725034e-15 First Gap: 0.5913328742767486 Largest Gap: 0.5913328742767486 Number of Clusters:1
+start:0 iteration:2
+CellsA: 523 CellsB: 882
+MutsA: 186 MutsB: 1246
+Using SNV kernel only
+Jump Percentage: 0.26385778547751143 First Eig Val: 1.4527900723725034e-15 First Gap: 0.5913328742767486 Largest Gap: 0.5913328742767486 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 523 Muts: 186 LostMuts: 0
+Node: 1 Cells: 4091 Muts: 1246 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Using SNV kernel only
+Jump Percentage: 0.2177921272953722 First Eig Val: 5.773591018421449e-16 First Gap: 0.7055535042394943 Largest Gap: 0.7055535042394943 Number of Clusters:1
+start:1 iteration:0
+CellsA: 451 CellsB: 954
+MutsA: 186 MutsB: 1246
+Using SNV kernel only
+Jump Percentage: 0.2205134735658686 First Eig Val: 1.0951040951894933e-15 First Gap: 0.6221856818752143 Largest Gap: 0.6221856818752143 Number of Clusters:1
+start:1 iteration:1
+CellsA: 488 CellsB: 917
+MutsA: 181 MutsB: 1251
+Using SNV kernel only
+Jump Percentage: 0.22130934001669766 First Eig Val: -1.153872639499056e-15 First Gap: 0.6233110280831647 Largest Gap: 0.6233110280831647 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 488 Muts: 181 LostMuts: 0
+Node: 1 Cells: 4126 Muts: 1251 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Using SNV kernel only
+Jump Percentage: 0.14419876399626153 First Eig Val: 1.2348570422964173e-15 First Gap: 0.7030917514733963 Largest Gap: 0.7030917514733963 Number of Clusters:1
+start:2 iteration:0
+CellsA: 416 CellsB: 989
+MutsA: 192 MutsB: 1240
+Using SNV kernel only
+Jump Percentage: 0.20059315514227666 First Eig Val: -5.371927946579016e-16 First Gap: 0.732501405753462 Largest Gap: 0.732501405753462 Number of Clusters:1
+start:2 iteration:1
+CellsA: 483 CellsB: 922
+MutsA: 179 MutsB: 1253
+Using SNV kernel only
+Jump Percentage: 0.20263748716334276 First Eig Val: 2.1277017283064525e-16 First Gap: 0.7354931457198474 Largest Gap: 0.7354931457198474 Number of Clusters:1
+start:2 iteration:2
+CellsA: 483 CellsB: 922
+MutsA: 180 MutsB: 1252
+Using SNV kernel only
+Jump Percentage: 0.20333588392707833 First Eig Val: -2.0941284491040484e-16 First Gap: 0.7351649295148139 Largest Gap: 0.7351649295148139 Number of Clusters:1
+start:2 iteration:3
+CellsA: 485 CellsB: 920
+MutsA: 179 MutsB: 1253
+Using SNV kernel only
+Jump Percentage: 0.2034121734249541 First Eig Val: -4.3012830206866995e-16 First Gap: 0.7354919035859874 Largest Gap: 0.7354919035859874 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 485 Muts: 179 LostMuts: 0
+Node: 1 Cells: 4129 Muts: 1253 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 523 Muts: 186 LostMuts: 0
+Node: 1 Cells: 4091 Muts: 1246 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Normalized Likelihood: -0.46498152775566465
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 3764 Muts: 793 LostMuts: 0
+Node: 1 Cells: 850 Muts: 639 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Normalized Likelihood: -0.7318252191504105
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2649 Muts: 615 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 817 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Normalized Likelihood: -0.5854674371478787
+Clonal Tree 2 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1651 Muts: 429 LostMuts: 0
+Node: 1 Cells: 2963 Muts: 1003 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Normalized Likelihood: -0.45915304550907227
+Clonal Tree 3 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 3209 Muts: 1099 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Normalized Likelihood: -0.4066922709093477
+Clonal Tree 4 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 523 Muts: 186 LostMuts: 0
+Node: 1 Cells: 4091 Muts: 1246 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Normalized Likelihood: -0.46498152775566465
+linear split norm likelihood best tree
+Clonal Tree 3 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 3209 Muts: 1099 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Sprouted tree:
+Clonal Tree 3 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 3209 Muts: 1099 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Cells: 3209 Muts: 1099 Ancestral Muts: 333 
+Number of subproblems remaining: 3
+Starting k-clonal tree inference for seed:
+Cells: 3209 Muts: 1099 Ancestral Muts: 333 
+Sprouting seed:
+Cells: 3209 Muts: 1099 Ancestral Muts: 333 
+Sprouting a branching tree from seed ...
+(Generator(PCG64) at 0x7FDE6E6772E0,)
+Jump Percentage: 0.9999999999999842 First Eig Val: -1.7197354486366897e-16 First Gap: 2.1288204005400973e-16 Largest Gap: 0.41926825733654915 Number of Clusters:3
+CellsA: 2359 CellsB: 850
+MutsA: 470 mutsB: 261
+Jump Percentage: 0.999999999999988 First Eig Val: -1.40738397299417e-16 First Gap: 7.324195311543903e-17 Largest Gap: 0.252353591651674 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 368 LostMuts: 0
+Node: 1 Cells: 2359 Muts: 470 LostMuts: 0
+Node: 2 Cells: 850 Muts: 261 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Jump Percentage: 0.9999999999999694 First Eig Val: -5.456444651813183e-16 First Gap: 1.4440346868601456e-16 Largest Gap: 0.42113511335716836 Number of Clusters:3
+CellsA: 2359 CellsB: 850
+MutsA: 470 mutsB: 261
+Jump Percentage: 0.999999999999988 First Eig Val: -1.40738397299417e-16 First Gap: 7.324195311543903e-17 Largest Gap: 0.252353591651674 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 368 LostMuts: 0
+Node: 1 Cells: 2359 Muts: 470 LostMuts: 0
+Node: 2 Cells: 850 Muts: 261 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Jump Percentage: 0.9999999999999936 First Eig Val: -1.2003921211384621e-17 First Gap: 4.707924083354198e-17 Largest Gap: 0.41331118444864606 Number of Clusters:3
+CellsA: 850 CellsB: 2359
+MutsA: 261 mutsB: 470
+Jump Percentage: 0.999999999999988 First Eig Val: -1.40738397299417e-16 First Gap: 7.324195311543903e-17 Largest Gap: 0.252353591651674 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 368 LostMuts: 0
+Node: 1 Cells: 850 Muts: 261 LostMuts: 0
+Node: 2 Cells: 2359 Muts: 470 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Finding the maximum likelihood tree out of 3 trees....
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 368 LostMuts: 0
+Node: 1 Cells: 2359 Muts: 470 LostMuts: 0
+Node: 2 Cells: 850 Muts: 261 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+
+Tree: 0 LogLikelihood: 3618703.334900251
+Variant LogLikelihood: -60035.81648365367 
+RDR LogLikelihood: 3678739.1513839047
+
+Clonal Tree 1 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 368 LostMuts: 0
+Node: 1 Cells: 2359 Muts: 470 LostMuts: 0
+Node: 2 Cells: 850 Muts: 261 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+
+Tree: 1 LogLikelihood: 3618703.334900251
+Variant LogLikelihood: -60035.81648365367 
+RDR LogLikelihood: 3678739.1513839047
+
+Clonal Tree 2 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 368 LostMuts: 0
+Node: 1 Cells: 850 Muts: 261 LostMuts: 0
+Node: 2 Cells: 2359 Muts: 470 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+
+Tree: 2 LogLikelihood: 3618703.334900251
+Variant LogLikelihood: -60035.81648365367 
+RDR LogLikelihood: 3678739.1513839047
+
+Sprouted tree:
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 368 LostMuts: 0
+Node: 1 Cells: 2359 Muts: 470 LostMuts: 0
+Node: 2 Cells: 850 Muts: 261 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Cells: 2359 Muts: 470 Ancestral Muts: 701 
+Cells: 850 Muts: 261 Ancestral Muts: 701 
+Sprouting seed:
+Cells: 3209 Muts: 1099 Ancestral Muts: 333 
+Sprouting a linear tree from seed ...
+Jump Percentage: 0.9999999999999772 First Eig Val: 4.56094262941308e-16 First Gap: 4.9348210936103795e-17 Largest Gap: 0.3506460806665129 Number of Clusters:3
+start:0 iteration:0
+CellsA: 2359 CellsB: 850
+MutsA: 733 MutsB: 366
+Jump Percentage: 0.9999999999999692 First Eig Val: -2.9456669376534564e-16 First Gap: 7.343526131533178e-16 Largest Gap: 0.2527818656428564 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2359 Muts: 733 LostMuts: 0
+Node: 1 Cells: 850 Muts: 366 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Jump Percentage: 0.9999999999999649 First Eig Val: -9.462206225465971e-16 First Gap: 1.2222187623820955e-15 Largest Gap: 0.3652347960105701 Number of Clusters:3
+start:1 iteration:0
+CellsA: 2359 CellsB: 850
+MutsA: 733 MutsB: 366
+Jump Percentage: 0.9999999999999692 First Eig Val: -2.9456669376534564e-16 First Gap: 7.343526131533178e-16 Largest Gap: 0.2527818656428564 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2359 Muts: 733 LostMuts: 0
+Node: 1 Cells: 850 Muts: 366 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Jump Percentage: 0.999999999999983 First Eig Val: -3.2702133107125476e-16 First Gap: 3.1532119000907367e-16 Largest Gap: 0.3419176473645027 Number of Clusters:3
+start:2 iteration:0
+CellsA: 2359 CellsB: 850
+MutsA: 733 MutsB: 366
+Jump Percentage: 0.9999999999999692 First Eig Val: -2.9456669376534564e-16 First Gap: 7.343526131533178e-16 Largest Gap: 0.2527818656428564 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2359 Muts: 733 LostMuts: 0
+Node: 1 Cells: 850 Muts: 366 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2359 Muts: 733 LostMuts: 0
+Node: 1 Cells: 850 Muts: 366 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Normalized Likelihood: -0.7860817622361287
+Jump Percentage: 0.9999999999999797 First Eig Val: -3.003239144562557e-16 First Gap: 4.68527052057331e-16 Largest Gap: 0.6032709845000207 Number of Clusters:2
+start:0 iteration:0
+CellsA: 1244 CellsB: 1115
+MutsA: 472 MutsB: 627
+Jump Percentage: 0.9999999999999706 First Eig Val: -7.459680105794218e-16 First Gap: 9.585849938680832e-16 Largest Gap: 0.5949101541186635 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Jump Percentage: 0.9999999999999811 First Eig Val: -2.3044386830984384e-17 First Gap: 3.3534529259575073e-16 Largest Gap: 0.6038084591113257 Number of Clusters:2
+start:1 iteration:0
+CellsA: 1244 CellsB: 1115
+MutsA: 472 MutsB: 627
+Jump Percentage: 0.9999999999999706 First Eig Val: -7.459680105794218e-16 First Gap: 9.585849938680832e-16 Largest Gap: 0.5949101541186635 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Jump Percentage: 0.9999999999999608 First Eig Val: -3.340276538209238e-16 First Gap: 1.2012177234902851e-15 Largest Gap: 0.6032786817917275 Number of Clusters:2
+start:2 iteration:0
+CellsA: 1244 CellsB: 1115
+MutsA: 472 MutsB: 627
+Jump Percentage: 0.9999999999999706 First Eig Val: -7.459680105794218e-16 First Gap: 9.585849938680832e-16 Largest Gap: 0.5949101541186635 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Normalized Likelihood: -0.6541837894414919
+Using SNV kernel only
+Jump Percentage: 0.13822002772485517 First Eig Val: -4.749405069845948e-16 First Gap: 0.6456416286102822 Largest Gap: 0.6456416286102822 Number of Clusters:1
+start:0 iteration:0
+CellsA: 421 CellsB: 823
+MutsA: 241 MutsB: 858
+Using SNV kernel only
+Jump Percentage: 0.18981710809306038 First Eig Val: 1.0482218919075863e-15 First Gap: 0.7404571119098843 Largest Gap: 0.7404571119098843 Number of Clusters:1
+start:0 iteration:1
+CellsA: 445 CellsB: 799
+MutsA: 235 MutsB: 864
+Using SNV kernel only
+Jump Percentage: 0.18937514782366024 First Eig Val: 3.772547527299631e-16 First Gap: 0.7406396110788089 Largest Gap: 0.7406396110788089 Number of Clusters:1
+start:0 iteration:2
+CellsA: 443 CellsB: 801
+MutsA: 235 MutsB: 864
+Using SNV kernel only
+Jump Percentage: 0.18937514782366024 First Eig Val: 3.772547527299631e-16 First Gap: 0.7406396110788089 Largest Gap: 0.7406396110788089 Number of Clusters:1
+Using SNV kernel only
+Jump Percentage: 0.1652002322570744 First Eig Val: -1.1066915670397083e-15 First Gap: 0.6539270007146983 Largest Gap: 0.6539270007146983 Number of Clusters:1
+start:1 iteration:0
+CellsA: 444 CellsB: 800
+MutsA: 249 MutsB: 850
+Using SNV kernel only
+Jump Percentage: 0.20065045556657468 First Eig Val: 1.2400335948031168e-15 First Gap: 0.6338372660108426 Largest Gap: 0.6338372660108426 Number of Clusters:1
+start:1 iteration:1
+CellsA: 458 CellsB: 786
+MutsA: 245 MutsB: 854
+Using SNV kernel only
+Jump Percentage: 0.20154833998259178 First Eig Val: 7.748404775478184e-16 First Gap: 0.6334890187081899 Largest Gap: 0.6334890187081899 Number of Clusters:1
+start:1 iteration:2
+CellsA: 457 CellsB: 787
+MutsA: 245 MutsB: 854
+Using SNV kernel only
+Jump Percentage: 0.20154833998259178 First Eig Val: 7.748404775478184e-16 First Gap: 0.6334890187081899 Largest Gap: 0.6334890187081899 Number of Clusters:1
+Using SNV kernel only
+Jump Percentage: 0.1717781432369877 First Eig Val: -1.208611461895178e-15 First Gap: 0.6449014768705771 Largest Gap: 0.6449014768705771 Number of Clusters:1
+start:2 iteration:0
+CellsA: 449 CellsB: 795
+MutsA: 256 MutsB: 843
+Using SNV kernel only
+Jump Percentage: 0.20892642898917757 First Eig Val: 5.198587412613399e-16 First Gap: 0.6415887430557743 Largest Gap: 0.6415887430557743 Number of Clusters:1
+start:2 iteration:1
+CellsA: 456 CellsB: 788
+MutsA: 254 MutsB: 845
+Using SNV kernel only
+Jump Percentage: 0.20785110512749028 First Eig Val: 8.696915247217577e-19 First Gap: 0.6424361904137544 Largest Gap: 0.6424361904137544 Number of Clusters:1
+start:2 iteration:2
+CellsA: 458 CellsB: 786
+MutsA: 254 MutsB: 845
+Using SNV kernel only
+Jump Percentage: 0.20785110512749028 First Eig Val: 8.696915247217577e-19 First Gap: 0.6424361904137544 Largest Gap: 0.6424361904137544 Number of Clusters:1
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2359 Muts: 733 LostMuts: 0
+Node: 1 Cells: 850 Muts: 366 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Normalized Likelihood: -0.7860817622361287
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Normalized Likelihood: -0.6541837894414919
+linear split norm likelihood best tree
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Sprouted tree:
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+Cells: 1965 Muts: 627 Ancestral Muts: 805 
+Number of subproblems remaining: 5
+Starting k-clonal tree inference for seed:
+Cells: 1965 Muts: 627 Ancestral Muts: 805 
+Sprouting seed:
+Cells: 1965 Muts: 627 Ancestral Muts: 805 
+Sprouting a branching tree from seed ...
+(Generator(PCG64) at 0x7FDE6E6772E0,)
+Jump Percentage: 0.9999999999999434 First Eig Val: -3.487511270797557e-17 First Gap: 1.0485594229121382e-16 Largest Gap: 0.45830234072466147 Number of Clusters:2
+CellsA: 1115 CellsB: 850
+MutsA: 195 mutsB: 171
+Jump Percentage: 0.9999999999999849 First Eig Val: -9.775254946738143e-17 First Gap: 1.5308422910710887e-17 Largest Gap: 0.30745344577979067 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 261 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 195 LostMuts: 0
+Node: 2 Cells: 850 Muts: 171 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Jump Percentage: 0.9999999999999832 First Eig Val: -4.858942300113581e-16 First Gap: 3.8138127396146305e-16 Largest Gap: 0.46309632818986457 Number of Clusters:2
+CellsA: 850 CellsB: 1115
+MutsA: 173 mutsB: 193
+Jump Percentage: 0.9999999999999866 First Eig Val: -3.350636458172993e-16 First Gap: 7.389513650298896e-16 Largest Gap: 0.3086724170087699 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 261 LostMuts: 0
+Node: 1 Cells: 850 Muts: 173 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 193 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Jump Percentage: 0.9999999999999781 First Eig Val: -3.895782634300178e-16 First Gap: 1.8366790878019806e-16 Largest Gap: 0.4817974599940877 Number of Clusters:2
+CellsA: 850 CellsB: 1115
+MutsA: 173 mutsB: 193
+Jump Percentage: 0.9999999999999866 First Eig Val: -3.350636458172993e-16 First Gap: 7.389513650298896e-16 Largest Gap: 0.3086724170087699 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 261 LostMuts: 0
+Node: 1 Cells: 850 Muts: 173 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 193 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Finding the maximum likelihood tree out of 3 trees....
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 261 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 195 LostMuts: 0
+Node: 2 Cells: 850 Muts: 171 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+
+Tree: 0 LogLikelihood: 2045837.007091953
+Variant LogLikelihood: -36534.977623534316 
+RDR LogLikelihood: 2082371.9847154873
+
+Clonal Tree 1 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 261 LostMuts: 0
+Node: 1 Cells: 850 Muts: 173 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 193 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+
+Tree: 1 LogLikelihood: 2045837.0070919532
+Variant LogLikelihood: -36534.97762353431 
+RDR LogLikelihood: 2082371.9847154873
+
+Clonal Tree 2 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 261 LostMuts: 0
+Node: 1 Cells: 850 Muts: 173 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 193 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+
+Tree: 2 LogLikelihood: 2045837.0070919532
+Variant LogLikelihood: -36534.97762353431 
+RDR LogLikelihood: 2082371.9847154873
+
+Sprouted tree:
+Clonal Tree 1 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 261 LostMuts: 0
+Node: 1 Cells: 850 Muts: 173 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 193 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Cells: 850 Muts: 173 Ancestral Muts: 1066 
+Cells: 1115 Muts: 193 Ancestral Muts: 1066 
+Sprouting seed:
+Cells: 1965 Muts: 627 Ancestral Muts: 805 
+Sprouting a linear tree from seed ...
+Jump Percentage: 0.9999999999999883 First Eig Val: 1.0980337664237137e-16 First Gap: 7.168909173176466e-17 Largest Gap: 0.40046333557480696 Number of Clusters:2
+start:0 iteration:0
+CellsA: 1115 CellsB: 850
+MutsA: 448 MutsB: 179
+Jump Percentage: 0.9999999999999665 First Eig Val: 4.027223221046729e-16 First Gap: 4.8886635096734617e-17 Largest Gap: 0.376079836613239 Number of Clusters:4
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 448 LostMuts: 0
+Node: 1 Cells: 850 Muts: 179 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Jump Percentage: 0.999999999999983 First Eig Val: 2.0197588657974453e-16 First Gap: 4.4965052498683906e-17 Largest Gap: 0.40285873913136877 Number of Clusters:2
+start:1 iteration:0
+CellsA: 1115 CellsB: 850
+MutsA: 448 MutsB: 179
+Jump Percentage: 0.9999999999999665 First Eig Val: 4.027223221046729e-16 First Gap: 4.8886635096734617e-17 Largest Gap: 0.376079836613239 Number of Clusters:4
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 448 LostMuts: 0
+Node: 1 Cells: 850 Muts: 179 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Jump Percentage: 0.9999999999999795 First Eig Val: -2.446705400764626e-16 First Gap: 2.3154978751384655e-16 Largest Gap: 0.4042882925044119 Number of Clusters:2
+start:2 iteration:0
+CellsA: 850 CellsB: 1115
+MutsA: 416 MutsB: 211
+Jump Percentage: 0.9999999999999567 First Eig Val: -1.9689970662645893e-16 First Gap: 9.257621953815952e-16 Largest Gap: 0.339300107463293 Number of Clusters:4
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 850 Muts: 416 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 211 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 448 LostMuts: 0
+Node: 1 Cells: 850 Muts: 179 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Normalized Likelihood: -0.6890413229274501
+Using SNV kernel only
+Jump Percentage: 0.3629014983817355 First Eig Val: 1.307750010120822e-15 First Gap: 0.4543950166603938 Largest Gap: 0.4543950166603938 Number of Clusters:1
+start:0 iteration:0
+CellsA: 556 CellsB: 559
+MutsA: 297 MutsB: 330
+Using SNV kernel only
+Jump Percentage: 0.3645595815240146 First Eig Val: 3.149995918860359e-16 First Gap: 0.4468987053979234 Largest Gap: 0.4468987053979234 Number of Clusters:1
+start:0 iteration:1
+CellsA: 556 CellsB: 559
+MutsA: 297 MutsB: 330
+Using SNV kernel only
+Jump Percentage: 0.37264620994143777 First Eig Val: -2.425180969455185e-15 First Gap: 0.44556049465092307 Largest Gap: 0.44556049465092307 Number of Clusters:1
+start:0 iteration:2
+CellsA: 560 CellsB: 555
+MutsA: 296 MutsB: 331
+Using SNV kernel only
+Jump Percentage: 0.373096307740703 First Eig Val: -1.727235762630899e-15 First Gap: 0.4456631750228422 Largest Gap: 0.4456631750228422 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 560 Muts: 296 LostMuts: 0
+Node: 1 Cells: 1405 Muts: 331 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Using SNV kernel only
+Jump Percentage: 0.396806667026065 First Eig Val: 3.142096171736538e-16 First Gap: 0.4578230283355216 Largest Gap: 0.4578230283355216 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1072 CellsB: 43
+MutsA: 444 MutsB: 183
+Using SNV kernel only
+Jump Percentage: 0.9703934418639009 First Eig Val: 4.791670464815272e-15 First Gap: 0.7830985867949825 Largest Gap: 0.7830985867949825 Number of Clusters:1
+start:1 iteration:1
+CellsA: 1084 CellsB: 31
+MutsA: 444 MutsB: 183
+Using SNV kernel only
+Jump Percentage: 0.9703934418639009 First Eig Val: 4.791670464815272e-15 First Gap: 0.7830985867949825 Largest Gap: 0.7830985867949825 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1084 Muts: 444 LostMuts: 0
+Node: 1 Cells: 881 Muts: 183 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Using SNV kernel only
+Jump Percentage: 0.3847216146278092 First Eig Val: -4.579716784661693e-16 First Gap: 0.45617094665039465 Largest Gap: 0.45617094665039465 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1072 CellsB: 43
+MutsA: 446 MutsB: 181
+Using SNV kernel only
+Jump Percentage: 0.9723105473233364 First Eig Val: -7.959865066880215e-16 First Gap: 0.8417863193564756 Largest Gap: 0.8417863193564756 Number of Clusters:1
+start:2 iteration:1
+CellsA: 1094 CellsB: 21
+MutsA: 446 MutsB: 181
+Using SNV kernel only
+Jump Percentage: 0.9723105473233364 First Eig Val: -7.959865066880215e-16 First Gap: 0.8417863193564756 Largest Gap: 0.8417863193564756 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1094 Muts: 446 LostMuts: 0
+Node: 1 Cells: 871 Muts: 181 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 560 Muts: 296 LostMuts: 0
+Node: 1 Cells: 1405 Muts: 331 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Normalized Likelihood: -0.6421080725977996
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 448 LostMuts: 0
+Node: 1 Cells: 850 Muts: 179 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Normalized Likelihood: -0.6890413229274501
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 560 Muts: 296 LostMuts: 0
+Node: 1 Cells: 1405 Muts: 331 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Normalized Likelihood: -0.6421080725977996
+linear split norm likelihood best tree
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 560 Muts: 296 LostMuts: 0
+Node: 1 Cells: 1405 Muts: 331 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Sprouted tree:
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 560 Muts: 296 LostMuts: 0
+Node: 1 Cells: 1405 Muts: 331 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+Cells: 1405 Muts: 331 Ancestral Muts: 1101 
+Number of subproblems remaining: 7
+Starting k-clonal tree inference for seed:
+Cells: 1405 Muts: 331 Ancestral Muts: 1101 
+Sprouting seed:
+Cells: 1405 Muts: 331 Ancestral Muts: 1101 
+Sprouting a branching tree from seed ...
+(Generator(PCG64) at 0x7FDE6E6772E0,)
+Jump Percentage: 0.9999999999999931 First Eig Val: -2.741987587255341e-16 First Gap: 2.930773250939917e-17 Largest Gap: 0.2767990933747981 Number of Clusters:2
+CellsA: 850 CellsB: 555
+MutsA: 154 mutsB: 81
+Jump Percentage: 0.9999999999999938 First Eig Val: -3.963534308053363e-16 First Gap: 1.0529915208760364e-15 Largest Gap: 0.29066691587484905 Number of Clusters:6
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 96 LostMuts: 0
+Node: 1 Cells: 850 Muts: 154 LostMuts: 0
+Node: 2 Cells: 555 Muts: 81 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+Jump Percentage: 0.9999999999999941 First Eig Val: -3.1706866368330905e-16 First Gap: 4.3919289977707256e-16 Largest Gap: 0.3014382232144295 Number of Clusters:2
+CellsA: 555 CellsB: 850
+MutsA: 81 mutsB: 154
+Jump Percentage: 0.9999999999999938 First Eig Val: -3.963534308053363e-16 First Gap: 1.0529915208760364e-15 Largest Gap: 0.29066691587484905 Number of Clusters:6
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 96 LostMuts: 0
+Node: 1 Cells: 555 Muts: 81 LostMuts: 0
+Node: 2 Cells: 850 Muts: 154 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+Jump Percentage: 0.9999999999999835 First Eig Val: 1.9681522737227076e-16 First Gap: 2.2983999670760027e-16 Largest Gap: 0.2858183417508453 Number of Clusters:2
+CellsA: 555 CellsB: 850
+MutsA: 81 mutsB: 154
+Jump Percentage: 0.9999999999999938 First Eig Val: -3.963534308053363e-16 First Gap: 1.0529915208760364e-15 Largest Gap: 0.29066691587484905 Number of Clusters:6
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 96 LostMuts: 0
+Node: 1 Cells: 555 Muts: 81 LostMuts: 0
+Node: 2 Cells: 850 Muts: 154 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+Finding the maximum likelihood tree out of 3 trees....
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 96 LostMuts: 0
+Node: 1 Cells: 850 Muts: 154 LostMuts: 0
+Node: 2 Cells: 555 Muts: 81 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+
+Tree: 0 LogLikelihood: 1190653.3598843364
+Variant LogLikelihood: -34454.97874590734 
+RDR LogLikelihood: 1225108.3386302437
+
+Clonal Tree 1 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 96 LostMuts: 0
+Node: 1 Cells: 555 Muts: 81 LostMuts: 0
+Node: 2 Cells: 850 Muts: 154 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+
+Tree: 1 LogLikelihood: 1190653.3598843364
+Variant LogLikelihood: -34454.97874590734 
+RDR LogLikelihood: 1225108.3386302437
+
+Clonal Tree 2 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 96 LostMuts: 0
+Node: 1 Cells: 555 Muts: 81 LostMuts: 0
+Node: 2 Cells: 850 Muts: 154 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+
+Tree: 2 LogLikelihood: 1190653.3598843364
+Variant LogLikelihood: -34454.97874590734 
+RDR LogLikelihood: 1225108.3386302437
+
+Sprouted tree:
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 96 LostMuts: 0
+Node: 1 Cells: 850 Muts: 154 LostMuts: 0
+Node: 2 Cells: 555 Muts: 81 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+Cells: 850 Muts: 154 Ancestral Muts: 1197 
+Sprouting seed:
+Cells: 1405 Muts: 331 Ancestral Muts: 1101 
+Sprouting a linear tree from seed ...
+Jump Percentage: 0.999999999999994 First Eig Val: -8.527229239897073e-18 First Gap: 2.1743743940406324e-16 Largest Gap: 0.3318095233968285 Number of Clusters:6
+start:0 iteration:0
+CellsA: 850 CellsB: 555
+MutsA: 244 MutsB: 87
+Jump Percentage: 0.999999999999991 First Eig Val: -1.723004021349903e-16 First Gap: 2.4523878243779786e-16 Largest Gap: 0.32860958355098835 Number of Clusters:4
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 850 Muts: 244 LostMuts: 0
+Node: 1 Cells: 555 Muts: 87 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+Jump Percentage: 0.9999999999999835 First Eig Val: -4.1353875541298864e-16 First Gap: 7.378729393792354e-16 Largest Gap: 0.29868099389663283 Number of Clusters:6
+start:1 iteration:0
+CellsA: 850 CellsB: 555
+MutsA: 244 MutsB: 87
+Jump Percentage: 0.999999999999991 First Eig Val: -1.723004021349903e-16 First Gap: 2.4523878243779786e-16 Largest Gap: 0.32860958355098835 Number of Clusters:4
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 850 Muts: 244 LostMuts: 0
+Node: 1 Cells: 555 Muts: 87 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+Jump Percentage: 0.999999999999991 First Eig Val: -2.8490795654768623e-16 First Gap: 2.5259051225285617e-16 Largest Gap: 0.30784019338596413 Number of Clusters:6
+start:2 iteration:0
+CellsA: 850 CellsB: 555
+MutsA: 244 MutsB: 87
+Jump Percentage: 0.999999999999991 First Eig Val: -1.723004021349903e-16 First Gap: 2.4523878243779786e-16 Largest Gap: 0.32860958355098835 Number of Clusters:4
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 850 Muts: 244 LostMuts: 0
+Node: 1 Cells: 555 Muts: 87 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 850 Muts: 244 LostMuts: 0
+Node: 1 Cells: 555 Muts: 87 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+Normalized Likelihood: -0.6897594870691166
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 850 Muts: 244 LostMuts: 0
+Node: 1 Cells: 555 Muts: 87 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+Normalized Likelihood: -0.6897594870691166
+linear split norm likelihood best tree
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 850 Muts: 244 LostMuts: 0
+Node: 1 Cells: 555 Muts: 87 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+Sprouted tree:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 850 Muts: 244 LostMuts: 0
+Node: 1 Cells: 555 Muts: 87 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+<bound method Phertilizer.sprout_linear of <phertilizer.Phertilizer object at 0x7fde80bc5340>> Not Valid!
+Number of subproblems remaining: 7
+Starting k-clonal tree inference for seed:
+Cells: 2359 Muts: 470 Ancestral Muts: 701 
+Sprouting seed:
+Cells: 2359 Muts: 470 Ancestral Muts: 701 
+Sprouting a branching tree from seed ...
+(Generator(PCG64) at 0x7FDE6E6772E0,)
+Jump Percentage: 0.9999999999999513 First Eig Val: -6.573257253243434e-16 First Gap: 1.2026275341543924e-15 Largest Gap: 0.4430767743198663 Number of Clusters:2
+CellsA: 1244 CellsB: 1115
+MutsA: 279 mutsB: 176
+Jump Percentage: 0.9999999999999633 First Eig Val: -4.0161038884794745e-16 First Gap: 1.6702129076400138e-15 Largest Gap: 0.30742333228401586 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 15 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 176 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+Jump Percentage: 0.9999999999999628 First Eig Val: -7.419792101389105e-16 First Gap: 2.6562798085086163e-16 Largest Gap: 0.45846458653298855 Number of Clusters:2
+CellsA: 1115 CellsB: 1244
+MutsA: 176 mutsB: 279
+Jump Percentage: 0.9999999999999633 First Eig Val: -4.0161038884794745e-16 First Gap: 1.6702129076400138e-15 Largest Gap: 0.30742333228401586 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 15 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 176 LostMuts: 0
+Node: 2 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+Jump Percentage: 0.9999999999999897 First Eig Val: -4.985859484811242e-16 First Gap: 8.997486627448154e-16 Largest Gap: 0.4567052867266358 Number of Clusters:2
+CellsA: 1115 CellsB: 1244
+MutsA: 176 mutsB: 279
+Jump Percentage: 0.9999999999999633 First Eig Val: -4.0161038884794745e-16 First Gap: 1.6702129076400138e-15 Largest Gap: 0.30742333228401586 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 15 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 176 LostMuts: 0
+Node: 2 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+Finding the maximum likelihood tree out of 3 trees....
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 15 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 176 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+
+Tree: 0 LogLikelihood: 3561829.883656744
+Variant LogLikelihood: -52960.863658073635 
+RDR LogLikelihood: 3614790.7473148177
+
+Clonal Tree 1 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 15 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 176 LostMuts: 0
+Node: 2 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+
+Tree: 1 LogLikelihood: 3561829.883656744
+Variant LogLikelihood: -52960.863658073635 
+RDR LogLikelihood: 3614790.7473148177
+
+Clonal Tree 2 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 15 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 176 LostMuts: 0
+Node: 2 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+
+Tree: 2 LogLikelihood: 3561829.883656744
+Variant LogLikelihood: -52960.863658073635 
+RDR LogLikelihood: 3614790.7473148177
+
+Sprouted tree:
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 15 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 176 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+Cells: 1244 Muts: 279 Ancestral Muts: 716 
+Cells: 1115 Muts: 176 Ancestral Muts: 716 
+Sprouting seed:
+Cells: 2359 Muts: 470 Ancestral Muts: 701 
+Sprouting a linear tree from seed ...
+Jump Percentage: 0.9999999999999782 First Eig Val: -3.102653979639049e-16 First Gap: 3.0991830734790325e-16 Largest Gap: 0.35364946936482633 Number of Clusters:2
+start:0 iteration:0
+CellsA: 1115 CellsB: 1244
+MutsA: 191 MutsB: 279
+Jump Percentage: 0.9999999999999785 First Eig Val: -3.4516475064177927e-16 First Gap: 6.036288445062874e-16 Largest Gap: 0.3782930572781581 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 191 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+Jump Percentage: 0.9999999999999591 First Eig Val: 2.7105807689029474e-16 First Gap: 5.218256774554351e-16 Largest Gap: 0.39172862969834626 Number of Clusters:2
+start:1 iteration:0
+CellsA: 1115 CellsB: 1244
+MutsA: 191 MutsB: 279
+Jump Percentage: 0.9999999999999785 First Eig Val: -3.4516475064177927e-16 First Gap: 6.036288445062874e-16 Largest Gap: 0.3782930572781581 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 191 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+Jump Percentage: 0.999999999999985 First Eig Val: -1.5010212494913967e-16 First Gap: 1.0450027805905312e-16 Largest Gap: 0.36629856832041624 Number of Clusters:2
+start:2 iteration:0
+CellsA: 1115 CellsB: 1244
+MutsA: 191 MutsB: 279
+Jump Percentage: 0.9999999999999785 First Eig Val: -3.4516475064177927e-16 First Gap: 6.036288445062874e-16 Largest Gap: 0.3782930572781581 Number of Clusters:2
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 191 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 191 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+Normalized Likelihood: -0.5545305737709452
+Using SNV kernel only
+Jump Percentage: 0.5457363804634007 First Eig Val: 1.4428634509237641e-15 First Gap: 0.36784982408670647 Largest Gap: 0.36784982408670647 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1046 CellsB: 69
+MutsA: 191 MutsB: 279
+Using SNV kernel only
+Terminating cell clustering due to NANs in affinity matrix
+Using SNV kernel only
+Jump Percentage: 0.5337961615021886 First Eig Val: -3.0734590491122357e-16 First Gap: 0.3626786149686136 Largest Gap: 0.3626786149686136 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1042 CellsB: 73
+MutsA: 190 MutsB: 280
+Using SNV kernel only
+Jump Percentage: 0.9132167889298612 First Eig Val: 3.556567037025154e-15 First Gap: 0.9106515607966273 Largest Gap: 0.9106515607966273 Number of Clusters:1
+start:1 iteration:1
+CellsA: 1112 CellsB: 3
+MutsA: 190 MutsB: 280
+Using SNV kernel only
+Jump Percentage: 0.9132167889298612 First Eig Val: 3.556567037025154e-15 First Gap: 0.9106515607966273 Largest Gap: 0.9106515607966273 Number of Clusters:1
+Using SNV kernel only
+Jump Percentage: 0.5109262958974038 First Eig Val: -1.6110945439322924e-15 First Gap: 0.3801253846906392 Largest Gap: 0.3801253846906392 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1049 CellsB: 66
+MutsA: 190 MutsB: 280
+Using SNV kernel only
+Jump Percentage: 0.9471676099153504 First Eig Val: -5.871231914492172e-16 First Gap: 0.9532028981564522 Largest Gap: 0.9532028981564522 Number of Clusters:1
+start:2 iteration:1
+CellsA: 1113 CellsB: 2
+MutsA: 190 MutsB: 280
+Using SNV kernel only
+Jump Percentage: 0.9471676099153504 First Eig Val: -5.871231914492172e-16 First Gap: 0.9532028981564522 Largest Gap: 0.9532028981564522 Number of Clusters:1
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 191 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+Normalized Likelihood: -0.5545305737709452
+linear split norm likelihood best tree
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 191 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+Sprouted tree:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 191 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+Cells: 1244 Muts: 279 Ancestral Muts: 892 
+Number of subproblems remaining: 5
+Starting k-clonal tree inference for seed:
+Cells: 3764 Muts: 423 Ancestral Muts: 488 
+Sprouting seed:
+Cells: 3764 Muts: 423 Ancestral Muts: 488 
+Sprouting a branching tree from seed ...
+(Generator(PCG64) at 0x7FDE6E6772E0,)
+Jump Percentage: 0.9999999999999781 First Eig Val: -3.1575214677708763e-16 First Gap: 5.500318615604075e-16 Largest Gap: 0.3579641398732309 Number of Clusters:2
+CellsA: 2649 CellsB: 1115
+MutsA: 163 mutsB: 147
+Jump Percentage: 0.9999999999999637 First Eig Val: 4.64736161935628e-16 First Gap: 3.3667245113074036e-16 Largest Gap: 0.29386205257740544 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 113 LostMuts: 0
+Node: 1 Cells: 2649 Muts: 163 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 147 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Jump Percentage: 0.9999999999999026 First Eig Val: -4.534068757813314e-16 First Gap: 3.738149553412413e-16 Largest Gap: 0.3530502312516472 Number of Clusters:2
+CellsA: 1115 CellsB: 2649
+MutsA: 147 mutsB: 163
+Jump Percentage: 0.9999999999999637 First Eig Val: 4.64736161935628e-16 First Gap: 3.3667245113074036e-16 Largest Gap: 0.29386205257740544 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 113 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 147 LostMuts: 0
+Node: 2 Cells: 2649 Muts: 163 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Jump Percentage: 0.9999999999999425 First Eig Val: -1.1746710044475939e-15 First Gap: 1.1795690655173497e-15 Largest Gap: 0.3622189919790308 Number of Clusters:2
+CellsA: 1115 CellsB: 2649
+MutsA: 147 mutsB: 163
+Jump Percentage: 0.9999999999999637 First Eig Val: 4.64736161935628e-16 First Gap: 3.3667245113074036e-16 Largest Gap: 0.29386205257740544 Number of Clusters:2
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 113 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 147 LostMuts: 0
+Node: 2 Cells: 2649 Muts: 163 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Finding the maximum likelihood tree out of 3 trees....
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 113 LostMuts: 0
+Node: 1 Cells: 2649 Muts: 163 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 147 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+
+Tree: 0 LogLikelihood: 5704852.639164227
+Variant LogLikelihood: -64754.52128001798 
+RDR LogLikelihood: 5769607.160444245
+
+Clonal Tree 1 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 113 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 147 LostMuts: 0
+Node: 2 Cells: 2649 Muts: 163 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+
+Tree: 1 LogLikelihood: 5704852.639164227
+Variant LogLikelihood: -64754.52128001798 
+RDR LogLikelihood: 5769607.160444245
+
+Clonal Tree 2 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 113 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 147 LostMuts: 0
+Node: 2 Cells: 2649 Muts: 163 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+
+Tree: 2 LogLikelihood: 5704852.639164227
+Variant LogLikelihood: -64754.52128001798 
+RDR LogLikelihood: 5769607.160444245
+
+Sprouted tree:
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 113 LostMuts: 0
+Node: 1 Cells: 2649 Muts: 163 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 147 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Cells: 2649 Muts: 163 Ancestral Muts: 601 
+Cells: 1115 Muts: 147 Ancestral Muts: 601 
+Sprouting seed:
+Cells: 3764 Muts: 423 Ancestral Muts: 488 
+Sprouting a linear tree from seed ...
+Jump Percentage: 0.9999999999999827 First Eig Val: 8.95499830615735e-17 First Gap: 4.573368548306505e-16 Largest Gap: 0.2628968296902621 Number of Clusters:2
+start:0 iteration:0
+CellsA: 2649 CellsB: 1115
+MutsA: 267 MutsB: 156
+Jump Percentage: 0.9999999999999891 First Eig Val: -4.240988992615017e-16 First Gap: 1.01703724040006e-15 Largest Gap: 0.3681457691399461 Number of Clusters:4
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2649 Muts: 267 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 156 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Jump Percentage: 0.9999999999999736 First Eig Val: 1.5781181037663036e-16 First Gap: 7.178220100803868e-16 Largest Gap: 0.2569806190614272 Number of Clusters:2
+start:1 iteration:0
+CellsA: 2649 CellsB: 1115
+MutsA: 267 MutsB: 156
+Jump Percentage: 0.9999999999999891 First Eig Val: -4.240988992615017e-16 First Gap: 1.01703724040006e-15 Largest Gap: 0.3681457691399461 Number of Clusters:4
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2649 Muts: 267 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 156 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Jump Percentage: 0.9999999999999568 First Eig Val: -5.377477488613467e-16 First Gap: 6.955554392138343e-16 Largest Gap: 0.2610320152876361 Number of Clusters:2
+start:2 iteration:0
+CellsA: 2649 CellsB: 1115
+MutsA: 267 MutsB: 156
+Jump Percentage: 0.9999999999999891 First Eig Val: -4.240988992615017e-16 First Gap: 1.01703724040006e-15 Largest Gap: 0.3681457691399461 Number of Clusters:4
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2649 Muts: 267 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 156 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2649 Muts: 267 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 156 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.6708308083378416
+Using SNV kernel only
+Jump Percentage: 0.7272399402870351 First Eig Val: 3.2069090370125933e-15 First Gap: 0.528534627725473 Largest Gap: 0.528534627725473 Number of Clusters:1
+start:0 iteration:0
+CellsA: 2587 CellsB: 62
+MutsA: 250 MutsB: 173
+Using SNV kernel only
+Jump Percentage: 0.7755988327335849 First Eig Val: -2.170233936137084e-15 First Gap: 0.5767600318429272 Largest Gap: 0.5767600318429272 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2609 CellsB: 40
+MutsA: 252 MutsB: 171
+Using SNV kernel only
+Jump Percentage: 0.8750487165739932 First Eig Val: 8.97719398818001e-16 First Gap: 0.5807641488531665 Largest Gap: 0.5807641488531665 Number of Clusters:1
+start:0 iteration:2
+CellsA: 2610 CellsB: 39
+MutsA: 252 MutsB: 171
+Using SNV kernel only
+Jump Percentage: 0.8750487165739932 First Eig Val: 8.97719398818001e-16 First Gap: 0.5807641488531665 Largest Gap: 0.5807641488531665 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2610 Muts: 252 LostMuts: 0
+Node: 1 Cells: 1154 Muts: 171 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.8093284045541087 First Eig Val: 1.3968996315574837e-15 First Gap: 0.4271078100563829 Largest Gap: 0.4271078100563829 Number of Clusters:1
+start:1 iteration:0
+CellsA: 2553 CellsB: 96
+MutsA: 246 MutsB: 177
+Using SNV kernel only
+Jump Percentage: 0.8563874258499954 First Eig Val: -3.091277234190687e-15 First Gap: 0.4879114277929419 Largest Gap: 0.4879114277929419 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2591 CellsB: 58
+MutsA: 243 MutsB: 180
+Using SNV kernel only
+Jump Percentage: 0.8562476644215476 First Eig Val: 3.7435332611579615e-15 First Gap: 0.4906091821197175 Largest Gap: 0.4906091821197175 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2591 Muts: 243 LostMuts: 0
+Node: 1 Cells: 1173 Muts: 180 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.8041410287906295 First Eig Val: -4.625163639719779e-15 First Gap: 0.5150435779004781 Largest Gap: 0.5150435779004781 Number of Clusters:1
+start:2 iteration:0
+CellsA: 2582 CellsB: 67
+MutsA: 250 MutsB: 173
+Using SNV kernel only
+Jump Percentage: 0.8689991416816417 First Eig Val: 1.3068972987140306e-15 First Gap: 0.5547176602397835 Largest Gap: 0.5547176602397835 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2605 CellsB: 44
+MutsA: 249 MutsB: 174
+Using SNV kernel only
+Jump Percentage: 0.7707460804103803 First Eig Val: -3.837452274349523e-15 First Gap: 0.5593307297217197 Largest Gap: 0.5593307297217197 Number of Clusters:1
+start:2 iteration:2
+CellsA: 2606 CellsB: 43
+MutsA: 248 MutsB: 175
+Using SNV kernel only
+Jump Percentage: 0.7690766521605902 First Eig Val: -5.054686053399001e-15 First Gap: 0.5541623554844254 Largest Gap: 0.5541623554844254 Number of Clusters:1
+start:2 iteration:3
+CellsA: 2605 CellsB: 44
+MutsA: 248 MutsB: 175
+Using SNV kernel only
+Jump Percentage: 0.7690766521605902 First Eig Val: -5.054686053399001e-15 First Gap: 0.5541623554844254 Largest Gap: 0.5541623554844254 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2605 Muts: 248 LostMuts: 0
+Node: 1 Cells: 1159 Muts: 175 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2591 Muts: 243 LostMuts: 0
+Node: 1 Cells: 1173 Muts: 180 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.6498038006011635
+Using SNV kernel only
+Jump Percentage: 0.6790049591892365 First Eig Val: 2.575329752640032e-15 First Gap: 0.6558630778560369 Largest Gap: 0.6558630778560369 Number of Clusters:1
+start:0 iteration:0
+CellsA: 2559 CellsB: 32
+MutsA: 236 MutsB: 187
+Using SNV kernel only
+Jump Percentage: 0.6958844790709976 First Eig Val: -8.41709238716937e-16 First Gap: 0.8305326190471417 Largest Gap: 0.8305326190471417 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2433 CellsB: 158
+MutsA: 231 MutsB: 192
+Using SNV kernel only
+Jump Percentage: 0.5802934339983474 First Eig Val: -5.9162050732237196e-15 First Gap: 0.8202007857215371 Largest Gap: 0.8202007857215371 Number of Clusters:1
+start:0 iteration:2
+CellsA: 2519 CellsB: 72
+MutsA: 231 MutsB: 192
+Using SNV kernel only
+Jump Percentage: 0.6678026374659861 First Eig Val: 3.181236533411479e-16 First Gap: 0.8118288694044905 Largest Gap: 0.8118288694044905 Number of Clusters:1
+start:0 iteration:3
+CellsA: 2580 CellsB: 11
+MutsA: 236 MutsB: 187
+Using SNV kernel only
+Jump Percentage: 0.7224794886843803 First Eig Val: -7.126032854579748e-16 First Gap: 0.8193207379599953 Largest Gap: 0.8193207379599953 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2580 Muts: 236 LostMuts: 0
+Node: 1 Cells: 1184 Muts: 187 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.8265336545505155 First Eig Val: -1.5972073593527207e-15 First Gap: 0.5701951201006646 Largest Gap: 0.5701951201006646 Number of Clusters:1
+start:1 iteration:0
+CellsA: 2541 CellsB: 50
+MutsA: 239 MutsB: 184
+Using SNV kernel only
+Jump Percentage: 0.35044998962472634 First Eig Val: 2.435052771112525e-15 First Gap: 0.8457124770016055 Largest Gap: 0.8457124770016055 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2531 CellsB: 60
+MutsA: 237 MutsB: 186
+Using SNV kernel only
+Jump Percentage: 0.5302988698321227 First Eig Val: 4.75281896655581e-15 First Gap: 0.8384219689367626 Largest Gap: 0.8384219689367626 Number of Clusters:1
+start:1 iteration:2
+CellsA: 2526 CellsB: 65
+MutsA: 237 MutsB: 186
+Using SNV kernel only
+Jump Percentage: 0.5302988698321227 First Eig Val: 4.75281896655581e-15 First Gap: 0.8384219689367626 Largest Gap: 0.8384219689367626 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2526 Muts: 237 LostMuts: 0
+Node: 1 Cells: 1238 Muts: 186 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.711790635977933 First Eig Val: 2.1845817875259592e-15 First Gap: 0.5600885868989806 Largest Gap: 0.5600885868989806 Number of Clusters:1
+start:2 iteration:0
+CellsA: 2537 CellsB: 54
+MutsA: 240 MutsB: 183
+Using SNV kernel only
+Jump Percentage: 0.5614821339972145 First Eig Val: 8.682674190525508e-16 First Gap: 0.8348601828064486 Largest Gap: 0.8348601828064486 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2524 CellsB: 67
+MutsA: 235 MutsB: 188
+Using SNV kernel only
+Jump Percentage: 0.5953625156990979 First Eig Val: 4.0321816495607225e-15 First Gap: 0.8229746066085148 Largest Gap: 0.8229746066085148 Number of Clusters:1
+start:2 iteration:2
+CellsA: 2519 CellsB: 72
+MutsA: 235 MutsB: 188
+Using SNV kernel only
+Jump Percentage: 0.5953625156990979 First Eig Val: 4.0321816495607225e-15 First Gap: 0.8229746066085148 Largest Gap: 0.8229746066085148 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2519 Muts: 235 LostMuts: 0
+Node: 1 Cells: 1245 Muts: 188 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 2 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2519 Muts: 235 LostMuts: 0
+Node: 1 Cells: 1245 Muts: 188 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.6219304925282334
+Using SNV kernel only
+Jump Percentage: 0.7393034328432488 First Eig Val: -7.589653373474932e-16 First Gap: 0.7184570005585796 Largest Gap: 0.7184570005585796 Number of Clusters:1
+start:0 iteration:0
+CellsA: 2498 CellsB: 21
+MutsA: 232 MutsB: 191
+Using SNV kernel only
+Jump Percentage: 0.7905379472500227 First Eig Val: -3.4487937857926035e-15 First Gap: 0.9102866303508779 Largest Gap: 0.9102866303508779 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2413 CellsB: 106
+MutsA: 230 MutsB: 193
+Using SNV kernel only
+Jump Percentage: 0.7473915438314183 First Eig Val: 2.270634185041701e-16 First Gap: 0.9061486479305808 Largest Gap: 0.9061486479305808 Number of Clusters:1
+start:0 iteration:2
+CellsA: 2408 CellsB: 111
+MutsA: 229 MutsB: 194
+Using SNV kernel only
+Jump Percentage: 0.708501613518048 First Eig Val: 6.106590829468583e-15 First Gap: 0.9021970460211048 Largest Gap: 0.9021970460211048 Number of Clusters:1
+start:0 iteration:3
+CellsA: 2404 CellsB: 115
+MutsA: 229 MutsB: 194
+Using SNV kernel only
+Jump Percentage: 0.708501613518048 First Eig Val: 6.106590829468583e-15 First Gap: 0.9021970460211048 Largest Gap: 0.9021970460211048 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2404 Muts: 229 LostMuts: 0
+Node: 1 Cells: 1360 Muts: 194 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.8440213613980985 First Eig Val: -2.932825702349739e-15 First Gap: 0.6205550864717979 Largest Gap: 0.6205550864717979 Number of Clusters:1
+start:1 iteration:0
+CellsA: 2481 CellsB: 38
+MutsA: 231 MutsB: 192
+Using SNV kernel only
+Jump Percentage: 0.955670475582874 First Eig Val: 2.9852440881189056e-15 First Gap: 0.876747708806528 Largest Gap: 0.876747708806528 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2403 CellsB: 116
+MutsA: 230 MutsB: 193
+Using SNV kernel only
+Jump Percentage: 0.9538874649909471 First Eig Val: -7.044918752500432e-15 First Gap: 0.8767677187853248 Largest Gap: 0.8767677187853248 Number of Clusters:1
+start:1 iteration:2
+CellsA: 2401 CellsB: 118
+MutsA: 228 MutsB: 195
+Using SNV kernel only
+Jump Percentage: 0.9396051711131037 First Eig Val: -1.3621368557494473e-15 First Gap: 0.8763373653570498 Largest Gap: 0.8763373653570498 Number of Clusters:1
+start:1 iteration:3
+CellsA: 2393 CellsB: 126
+MutsA: 227 MutsB: 196
+Using SNV kernel only
+Jump Percentage: 0.9516034168201348 First Eig Val: 1.163846022323062e-15 First Gap: 0.8630329129329354 Largest Gap: 0.8630329129329354 Number of Clusters:1
+start:1 iteration:4
+CellsA: 2390 CellsB: 129
+MutsA: 227 MutsB: 196
+Using SNV kernel only
+Jump Percentage: 0.9516034168201348 First Eig Val: 1.163846022323062e-15 First Gap: 0.8630329129329354 Largest Gap: 0.8630329129329354 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2390 Muts: 227 LostMuts: 0
+Node: 1 Cells: 1374 Muts: 196 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.755846500405302 First Eig Val: 3.699848944159827e-15 First Gap: 0.7370060895196552 Largest Gap: 0.7370060895196552 Number of Clusters:1
+start:2 iteration:0
+CellsA: 2500 CellsB: 19
+MutsA: 231 MutsB: 192
+Using SNV kernel only
+Jump Percentage: 0.9484011791348848 First Eig Val: -3.658033471563567e-15 First Gap: 0.8910403654590213 Largest Gap: 0.8910403654590213 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2405 CellsB: 114
+MutsA: 229 MutsB: 194
+Using SNV kernel only
+Jump Percentage: 0.9310512018702953 First Eig Val: -6.786535812870035e-17 First Gap: 0.8901582259142066 Largest Gap: 0.8901582259142066 Number of Clusters:1
+start:2 iteration:2
+CellsA: 2400 CellsB: 119
+MutsA: 227 MutsB: 196
+Using SNV kernel only
+Jump Percentage: 0.8941951831575918 First Eig Val: -9.959568810244097e-16 First Gap: 0.8872875401651119 Largest Gap: 0.8872875401651119 Number of Clusters:1
+start:2 iteration:3
+CellsA: 2392 CellsB: 127
+MutsA: 227 MutsB: 196
+Using SNV kernel only
+Jump Percentage: 0.8941951831575918 First Eig Val: -9.959568810244097e-16 First Gap: 0.8872875401651119 Largest Gap: 0.8872875401651119 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2392 Muts: 227 LostMuts: 0
+Node: 1 Cells: 1372 Muts: 196 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2390 Muts: 227 LostMuts: 0
+Node: 1 Cells: 1374 Muts: 196 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.5805362054701029
+Using SNV kernel only
+Jump Percentage: 0.9558312632587317 First Eig Val: 3.5483570128079375e-15 First Gap: 0.855008740149855 Largest Gap: 0.855008740149855 Number of Clusters:1
+start:0 iteration:0
+CellsA: 2307 CellsB: 83
+MutsA: 209 MutsB: 214
+Using SNV kernel only
+Jump Percentage: 0.8901789091481048 First Eig Val: -5.13558163269486e-15 First Gap: 0.8551511487224348 Largest Gap: 0.8551511487224348 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2303 CellsB: 87
+MutsA: 209 MutsB: 214
+Using SNV kernel only
+Jump Percentage: 0.8901789091481048 First Eig Val: -5.13558163269486e-15 First Gap: 0.8551511487224348 Largest Gap: 0.8551511487224348 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2303 Muts: 209 LostMuts: 0
+Node: 1 Cells: 1461 Muts: 214 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.9545933133086051 First Eig Val: -3.3136734238081766e-15 First Gap: 0.8143544897705595 Largest Gap: 0.8143544897705595 Number of Clusters:1
+start:1 iteration:0
+CellsA: 2379 CellsB: 11
+MutsA: 224 MutsB: 199
+Using SNV kernel only
+Jump Percentage: 0.970440909968229 First Eig Val: 4.070082355698406e-15 First Gap: 0.936682612895925 Largest Gap: 0.936682612895925 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2373 CellsB: 17
+MutsA: 224 MutsB: 199
+Using SNV kernel only
+Jump Percentage: 0.970440909968229 First Eig Val: 4.070082355698406e-15 First Gap: 0.936682612895925 Largest Gap: 0.936682612895925 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2373 Muts: 224 LostMuts: 0
+Node: 1 Cells: 1391 Muts: 199 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.9524271801007015 First Eig Val: -3.123271877426277e-16 First Gap: 0.8028061755802663 Largest Gap: 0.8028061755802663 Number of Clusters:1
+start:2 iteration:0
+CellsA: 2378 CellsB: 12
+MutsA: 225 MutsB: 198
+Using SNV kernel only
+Jump Percentage: 0.9785350923783462 First Eig Val: -6.95713740540433e-15 First Gap: 0.9168434310735966 Largest Gap: 0.9168434310735966 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2378 CellsB: 12
+MutsA: 223 MutsB: 200
+Using SNV kernel only
+Jump Percentage: 0.9748901246074911 First Eig Val: 3.4069441577175924e-15 First Gap: 0.9174777313148007 Largest Gap: 0.9174777313148007 Number of Clusters:1
+start:2 iteration:2
+CellsA: 2373 CellsB: 17
+MutsA: 223 MutsB: 200
+Using SNV kernel only
+Jump Percentage: 0.9748901246074911 First Eig Val: 3.4069441577175924e-15 First Gap: 0.9174777313148007 Largest Gap: 0.9174777313148007 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2373 Muts: 223 LostMuts: 0
+Node: 1 Cells: 1391 Muts: 200 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2303 Muts: 209 LostMuts: 0
+Node: 1 Cells: 1461 Muts: 214 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.5519801171716325
+Using SNV kernel only
+Jump Percentage: 0.5638748087453307 First Eig Val: 3.5213395784342174e-15 First Gap: 0.3339326072089275 Largest Gap: 0.3339326072089275 Number of Clusters:1
+start:0 iteration:0
+CellsA: 2132 CellsB: 171
+MutsA: 198 MutsB: 225
+Using SNV kernel only
+Jump Percentage: 0.8980636987148336 First Eig Val: -5.789056235106402e-15 First Gap: 0.8976556748998537 Largest Gap: 0.8976556748998537 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2255 CellsB: 48
+MutsA: 196 MutsB: 227
+Using SNV kernel only
+Jump Percentage: 0.9003849466176234 First Eig Val: -5.641463288403304e-15 First Gap: 0.8808224300576737 Largest Gap: 0.8808224300576737 Number of Clusters:1
+start:0 iteration:2
+CellsA: 2248 CellsB: 55
+MutsA: 196 MutsB: 227
+Using SNV kernel only
+Jump Percentage: 0.9003849466176234 First Eig Val: -5.641463288403304e-15 First Gap: 0.8808224300576737 Largest Gap: 0.8808224300576737 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2248 Muts: 196 LostMuts: 0
+Node: 1 Cells: 1516 Muts: 227 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.5848937767543502 First Eig Val: -1.99148711437685e-15 First Gap: 0.35663728762603414 Largest Gap: 0.35663728762603414 Number of Clusters:1
+start:1 iteration:0
+CellsA: 2155 CellsB: 148
+MutsA: 200 MutsB: 223
+Using SNV kernel only
+Jump Percentage: 0.9724973802353378 First Eig Val: -3.9414139024832254e-16 First Gap: 0.8792435129063573 Largest Gap: 0.8792435129063573 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2261 CellsB: 42
+MutsA: 199 MutsB: 224
+Using SNV kernel only
+Jump Percentage: 0.9714120944417741 First Eig Val: -6.9717092046737145e-15 First Gap: 0.8796418324378262 Largest Gap: 0.8796418324378262 Number of Clusters:1
+start:1 iteration:2
+CellsA: 2257 CellsB: 46
+MutsA: 199 MutsB: 224
+Using SNV kernel only
+Jump Percentage: 0.9714120944417741 First Eig Val: -6.9717092046737145e-15 First Gap: 0.8796418324378262 Largest Gap: 0.8796418324378262 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2257 Muts: 199 LostMuts: 0
+Node: 1 Cells: 1507 Muts: 224 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.545931260094293 First Eig Val: -6.763456439871935e-16 First Gap: 0.30495783573336577 Largest Gap: 0.32501532501863417 Number of Clusters:3
+start:2 iteration:0
+CellsA: 2109 CellsB: 194
+MutsA: 197 MutsB: 226
+Using SNV kernel only
+Jump Percentage: 0.9740607643191329 First Eig Val: -3.605141630103761e-15 First Gap: 0.8150683959843397 Largest Gap: 0.8150683959843397 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2293 CellsB: 10
+MutsA: 202 MutsB: 221
+Using SNV kernel only
+Jump Percentage: 0.9758881028977693 First Eig Val: 1.8496556825238585e-15 First Gap: 0.8115298924616834 Largest Gap: 0.8115298924616834 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2293 Muts: 202 LostMuts: 0
+Node: 1 Cells: 1471 Muts: 221 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2248 Muts: 196 LostMuts: 0
+Node: 1 Cells: 1516 Muts: 227 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.5296883738323164
+Using SNV kernel only
+Jump Percentage: 0.5478868520911943 First Eig Val: -1.2483944271130706e-15 First Gap: 0.3373438281599679 Largest Gap: 0.3373438281599679 Number of Clusters:1
+start:0 iteration:0
+CellsA: 2083 CellsB: 165
+MutsA: 189 MutsB: 234
+Using SNV kernel only
+Jump Percentage: 0.9761383059370727 First Eig Val: -5.061505092140874e-15 First Gap: 0.857804458689219 Largest Gap: 0.857804458689219 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2216 CellsB: 32
+MutsA: 188 MutsB: 235
+Using SNV kernel only
+Jump Percentage: 0.9755111134513448 First Eig Val: 7.952377940827372e-16 First Gap: 0.8582015036938554 Largest Gap: 0.8582015036938554 Number of Clusters:1
+start:0 iteration:2
+CellsA: 2213 CellsB: 35
+MutsA: 188 MutsB: 235
+Using SNV kernel only
+Jump Percentage: 0.9755111134513448 First Eig Val: 7.952377940827372e-16 First Gap: 0.8582015036938554 Largest Gap: 0.8582015036938554 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2213 Muts: 188 LostMuts: 0
+Node: 1 Cells: 1551 Muts: 235 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.44051249578378093 First Eig Val: -1.4913217823197098e-15 First Gap: 0.3139532544361751 Largest Gap: 0.3139532544361751 Number of Clusters:1
+start:1 iteration:0
+CellsA: 2051 CellsB: 197
+MutsA: 189 MutsB: 234
+Using SNV kernel only
+Jump Percentage: 0.9678402634069257 First Eig Val: 1.379113223474646e-16 First Gap: 0.9335607246767059 Largest Gap: 0.9335607246767059 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2217 CellsB: 31
+MutsA: 189 MutsB: 234
+Using SNV kernel only
+Jump Percentage: 0.9678402634069257 First Eig Val: 1.379113223474646e-16 First Gap: 0.9335607246767059 Largest Gap: 0.9335607246767059 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2217 Muts: 189 LostMuts: 0
+Node: 1 Cells: 1547 Muts: 234 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.549964998449695 First Eig Val: 1.4808168797078632e-16 First Gap: 0.3407255019896002 Largest Gap: 0.3407255019896002 Number of Clusters:1
+start:2 iteration:0
+CellsA: 2086 CellsB: 162
+MutsA: 190 MutsB: 233
+Using SNV kernel only
+Jump Percentage: 0.9719328163558376 First Eig Val: -2.934717014351695e-15 First Gap: 0.9134866434437026 Largest Gap: 0.9134866434437026 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2220 CellsB: 28
+MutsA: 190 MutsB: 233
+Using SNV kernel only
+Jump Percentage: 0.9719328163558376 First Eig Val: -2.934717014351695e-15 First Gap: 0.9134866434437026 Largest Gap: 0.9134866434437026 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2220 Muts: 190 LostMuts: 0
+Node: 1 Cells: 1544 Muts: 233 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2213 Muts: 188 LostMuts: 0
+Node: 1 Cells: 1551 Muts: 235 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.5147296788983224
+Using SNV kernel only
+Jump Percentage: 0.5711010282184676 First Eig Val: 3.6295658251378407e-16 First Gap: 0.37646344956217165 Largest Gap: 0.37646344956217165 Number of Clusters:1
+start:0 iteration:0
+CellsA: 2081 CellsB: 132
+MutsA: 182 MutsB: 241
+Using SNV kernel only
+Jump Percentage: 0.9721921060382911 First Eig Val: -4.2703878258479426e-15 First Gap: 0.9123318990910363 Largest Gap: 0.9123318990910363 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2181 CellsB: 32
+MutsA: 181 MutsB: 242
+Using SNV kernel only
+Jump Percentage: 0.9704645787435748 First Eig Val: 4.5267886171400895e-15 First Gap: 0.912526418988762 Largest Gap: 0.912526418988762 Number of Clusters:1
+start:0 iteration:2
+CellsA: 2179 CellsB: 34
+MutsA: 181 MutsB: 242
+Using SNV kernel only
+Jump Percentage: 0.9704645787435748 First Eig Val: 4.5267886171400895e-15 First Gap: 0.912526418988762 Largest Gap: 0.912526418988762 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2179 Muts: 181 LostMuts: 0
+Node: 1 Cells: 1585 Muts: 242 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.48082549078976927 First Eig Val: -3.532164659500122e-15 First Gap: 0.32099810410120105 Largest Gap: 0.32099810410120105 Number of Clusters:1
+start:1 iteration:0
+CellsA: 2046 CellsB: 167
+MutsA: 177 MutsB: 246
+Using SNV kernel only
+Jump Percentage: 0.9679036392416911 First Eig Val: -1.4428004578113958e-15 First Gap: 0.8592693252019087 Largest Gap: 0.8592693252019087 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2158 CellsB: 55
+MutsA: 176 MutsB: 247
+Using SNV kernel only
+Jump Percentage: 0.9666308614053842 First Eig Val: -2.3455216167886147e-15 First Gap: 0.8596041679002433 Largest Gap: 0.8596041679002433 Number of Clusters:1
+start:1 iteration:2
+CellsA: 2156 CellsB: 57
+MutsA: 176 MutsB: 247
+Using SNV kernel only
+Jump Percentage: 0.9666308614053842 First Eig Val: -2.3455216167886147e-15 First Gap: 0.8596041679002433 Largest Gap: 0.8596041679002433 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2156 Muts: 176 LostMuts: 0
+Node: 1 Cells: 1608 Muts: 247 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.5576326992457583 First Eig Val: -5.968532959532725e-16 First Gap: 0.2858076723113937 Largest Gap: 0.3061717186891938 Number of Clusters:3
+start:2 iteration:0
+CellsA: 2009 CellsB: 204
+MutsA: 176 MutsB: 247
+Using SNV kernel only
+Jump Percentage: 0.8260081569329689 First Eig Val: 2.721197966926273e-15 First Gap: 0.8262067075085714 Largest Gap: 0.8262067075085714 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2152 CellsB: 61
+MutsA: 173 MutsB: 250
+Using SNV kernel only
+Jump Percentage: 0.8192592586896744 First Eig Val: -4.63134788974567e-15 First Gap: 0.8116930240584809 Largest Gap: 0.8116930240584809 Number of Clusters:1
+start:2 iteration:2
+CellsA: 2203 CellsB: 10
+MutsA: 184 MutsB: 239
+Using SNV kernel only
+Jump Percentage: 0.9782028769597597 First Eig Val: 3.7510194007979384e-15 First Gap: 0.911132162018842 Largest Gap: 0.911132162018842 Number of Clusters:1
+start:2 iteration:3
+CellsA: 2195 CellsB: 18
+MutsA: 183 MutsB: 240
+Using SNV kernel only
+Jump Percentage: 0.9771627256501116 First Eig Val: -4.715839962221472e-15 First Gap: 0.9113938316986097 Largest Gap: 0.9113938316986097 Number of Clusters:1
+start:2 iteration:4
+CellsA: 2193 CellsB: 20
+MutsA: 183 MutsB: 240
+Using SNV kernel only
+Jump Percentage: 0.9771627256501116 First Eig Val: -4.715839962221472e-15 First Gap: 0.9113938316986097 Largest Gap: 0.9113938316986097 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2193 Muts: 183 LostMuts: 0
+Node: 1 Cells: 1571 Muts: 240 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2156 Muts: 176 LostMuts: 0
+Node: 1 Cells: 1608 Muts: 247 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.49303505661260477
+Using SNV kernel only
+Jump Percentage: 0.5538104530082574 First Eig Val: 4.297438598553649e-16 First Gap: 0.32617921534961297 Largest Gap: 0.32617921534961297 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1997 CellsB: 159
+MutsA: 174 MutsB: 249
+Using SNV kernel only
+Jump Percentage: 0.9773316527027242 First Eig Val: -2.246552268064134e-16 First Gap: 0.9753954931990982 Largest Gap: 0.9753954931990982 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2147 CellsB: 9
+MutsA: 174 MutsB: 249
+Using SNV kernel only
+Jump Percentage: 0.9773316527027242 First Eig Val: -2.246552268064134e-16 First Gap: 0.9753954931990982 Largest Gap: 0.9753954931990982 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2147 Muts: 174 LostMuts: 0
+Node: 1 Cells: 1617 Muts: 249 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.5692796024233917 First Eig Val: 4.360345088568267e-15 First Gap: 0.3896409820826363 Largest Gap: 0.3896409820826363 Number of Clusters:1
+start:1 iteration:0
+CellsA: 2037 CellsB: 119
+MutsA: 170 MutsB: 253
+Using SNV kernel only
+Jump Percentage: 0.9144282840710932 First Eig Val: -2.5182172586156586e-15 First Gap: 0.9096361019582251 Largest Gap: 0.9096361019582251 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2131 CellsB: 25
+MutsA: 170 MutsB: 253
+Using SNV kernel only
+Jump Percentage: 0.9144282840710932 First Eig Val: -2.5182172586156586e-15 First Gap: 0.9096361019582251 Largest Gap: 0.9096361019582251 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2131 Muts: 170 LostMuts: 0
+Node: 1 Cells: 1633 Muts: 253 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.573325893691824 First Eig Val: -2.3656884827819076e-15 First Gap: 0.34420634764286234 Largest Gap: 0.34420634764286234 Number of Clusters:1
+start:2 iteration:0
+CellsA: 2008 CellsB: 148
+MutsA: 172 MutsB: 251
+Using SNV kernel only
+Jump Percentage: 0.8996281031548728 First Eig Val: 8.43854228738963e-16 First Gap: 0.9738073998714746 Largest Gap: 0.9738073998714746 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2138 CellsB: 18
+MutsA: 172 MutsB: 251
+Using SNV kernel only
+Jump Percentage: 0.8996281031548728 First Eig Val: 8.43854228738963e-16 First Gap: 0.9738073998714746 Largest Gap: 0.9738073998714746 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2138 Muts: 172 LostMuts: 0
+Node: 1 Cells: 1626 Muts: 251 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2131 Muts: 170 LostMuts: 0
+Node: 1 Cells: 1633 Muts: 253 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.48145543197988633
+Using SNV kernel only
+Jump Percentage: 0.5131576176058994 First Eig Val: 2.1544901347464676e-15 First Gap: 0.3459372326597104 Largest Gap: 0.3459372326597104 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1992 CellsB: 139
+MutsA: 167 MutsB: 256
+Using SNV kernel only
+Jump Percentage: 0.9557140497907934 First Eig Val: -1.62284876074576e-15 First Gap: 0.9748016913398195 Largest Gap: 0.9748016913398195 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2119 CellsB: 12
+MutsA: 167 MutsB: 256
+Using SNV kernel only
+Jump Percentage: 0.9557140497907934 First Eig Val: -1.62284876074576e-15 First Gap: 0.9748016913398195 Largest Gap: 0.9748016913398195 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2119 Muts: 167 LostMuts: 0
+Node: 1 Cells: 1645 Muts: 256 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.5615552739328422 First Eig Val: -7.819266067965479e-16 First Gap: 0.330830254334081 Largest Gap: 0.330830254334081 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1977 CellsB: 154
+MutsA: 167 MutsB: 256
+Using SNV kernel only
+Jump Percentage: 0.9655818167046127 First Eig Val: -4.44497918286843e-16 First Gap: 0.9750330995161789 Largest Gap: 0.9750330995161789 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2118 CellsB: 13
+MutsA: 167 MutsB: 256
+Using SNV kernel only
+Jump Percentage: 0.9655818167046127 First Eig Val: -4.44497918286843e-16 First Gap: 0.9750330995161789 Largest Gap: 0.9750330995161789 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2118 Muts: 167 LostMuts: 0
+Node: 1 Cells: 1646 Muts: 256 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.567138965978308 First Eig Val: -1.604700530441488e-15 First Gap: 0.3142850485855523 Largest Gap: 0.3142850485855523 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1963 CellsB: 168
+MutsA: 167 MutsB: 256
+Using SNV kernel only
+Jump Percentage: 0.9641651099609964 First Eig Val: -4.736153757459827e-15 First Gap: 0.9750285060872668 Largest Gap: 0.9750285060872668 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2116 CellsB: 15
+MutsA: 167 MutsB: 256
+Using SNV kernel only
+Jump Percentage: 0.9641651099609964 First Eig Val: -4.736153757459827e-15 First Gap: 0.9750285060872668 Largest Gap: 0.9750285060872668 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2116 Muts: 167 LostMuts: 0
+Node: 1 Cells: 1648 Muts: 256 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 2 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2116 Muts: 167 LostMuts: 0
+Node: 1 Cells: 1648 Muts: 256 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4749849130138924
+Using SNV kernel only
+Jump Percentage: 0.563401683490018 First Eig Val: -3.660402059582635e-16 First Gap: 0.36571245211422726 Largest Gap: 0.36571245211422726 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1984 CellsB: 132
+MutsA: 164 MutsB: 259
+Using SNV kernel only
+Jump Percentage: 0.9084758426195947 First Eig Val: 1.7236966170217689e-15 First Gap: 0.9070771331637768 Largest Gap: 0.9070771331637768 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2105 CellsB: 11
+MutsA: 164 MutsB: 259
+Using SNV kernel only
+Jump Percentage: 0.9084758426195947 First Eig Val: 1.7236966170217689e-15 First Gap: 0.9070771331637768 Largest Gap: 0.9070771331637768 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2105 Muts: 164 LostMuts: 0
+Node: 1 Cells: 1659 Muts: 259 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.5803868447206351 First Eig Val: 2.6494885658253578e-15 First Gap: 0.33382461312736156 Largest Gap: 0.33382461312736156 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1961 CellsB: 155
+MutsA: 166 MutsB: 257
+Using SNV kernel only
+Jump Percentage: 0.6983923713000162 First Eig Val: 3.454165456313113e-15 First Gap: 0.9676570923506467 Largest Gap: 0.9676570923506467 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2110 CellsB: 6
+MutsA: 166 MutsB: 257
+Using SNV kernel only
+Jump Percentage: 0.6983923713000162 First Eig Val: 3.454165456313113e-15 First Gap: 0.9676570923506467 Largest Gap: 0.9676570923506467 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2110 Muts: 166 LostMuts: 0
+Node: 1 Cells: 1654 Muts: 257 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.4640722763353621 First Eig Val: -4.7357053039242894e-15 First Gap: 0.3424380320038923 Largest Gap: 0.3424380320038923 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1965 CellsB: 151
+MutsA: 165 MutsB: 258
+Using SNV kernel only
+Jump Percentage: 0.9683600778621932 First Eig Val: -6.041707425027948e-15 First Gap: 0.9748855280208386 Largest Gap: 0.9748855280208386 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2105 CellsB: 11
+MutsA: 165 MutsB: 258
+Using SNV kernel only
+Jump Percentage: 0.9683600778621932 First Eig Val: -6.041707425027948e-15 First Gap: 0.9748855280208386 Largest Gap: 0.9748855280208386 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2105 Muts: 165 LostMuts: 0
+Node: 1 Cells: 1659 Muts: 258 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2105 Muts: 164 LostMuts: 0
+Node: 1 Cells: 1659 Muts: 259 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.46956696397419895
+Using SNV kernel only
+Jump Percentage: 0.5815724927011038 First Eig Val: 4.403853041783102e-15 First Gap: 0.319953815701669 Largest Gap: 0.319953815701669 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1949 CellsB: 156
+MutsA: 163 MutsB: 260
+Using SNV kernel only
+Jump Percentage: 0.9111271426404876 First Eig Val: -6.453052703369625e-15 First Gap: 0.9505393788704528 Largest Gap: 0.9505393788704528 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2099 CellsB: 6
+MutsA: 163 MutsB: 260
+Using SNV kernel only
+Jump Percentage: 0.9111271426404876 First Eig Val: -6.453052703369625e-15 First Gap: 0.9505393788704528 Largest Gap: 0.9505393788704528 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2099 Muts: 163 LostMuts: 0
+Node: 1 Cells: 1665 Muts: 260 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.5821823560820137 First Eig Val: 2.798034427851239e-15 First Gap: 0.3466777252917456 Largest Gap: 0.3466777252917456 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1964 CellsB: 141
+MutsA: 162 MutsB: 261
+Using SNV kernel only
+Jump Percentage: 0.9117514587953487 First Eig Val: -4.3521908082641677e-16 First Gap: 0.8858188552737759 Largest Gap: 0.8858188552737759 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2095 CellsB: 10
+MutsA: 162 MutsB: 261
+Using SNV kernel only
+Jump Percentage: 0.9117514587953487 First Eig Val: -4.3521908082641677e-16 First Gap: 0.8858188552737759 Largest Gap: 0.8858188552737759 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2095 Muts: 162 LostMuts: 0
+Node: 1 Cells: 1669 Muts: 261 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.5810370195807023 First Eig Val: -3.388361970220629e-15 First Gap: 0.3854227489569455 Largest Gap: 0.3854227489569455 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1983 CellsB: 122
+MutsA: 161 MutsB: 262
+Using SNV kernel only
+Jump Percentage: 0.8499785879229195 First Eig Val: -5.4223583628064424e-15 First Gap: 0.9249343849078541 Largest Gap: 0.9249343849078541 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2093 CellsB: 12
+MutsA: 161 MutsB: 262
+Using SNV kernel only
+Jump Percentage: 0.8499785879229195 First Eig Val: -5.4223583628064424e-15 First Gap: 0.9249343849078541 Largest Gap: 0.9249343849078541 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2093 Muts: 161 LostMuts: 0
+Node: 1 Cells: 1671 Muts: 262 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 2 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2093 Muts: 161 LostMuts: 0
+Node: 1 Cells: 1671 Muts: 262 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.46316835402956247
+Using SNV kernel only
+Jump Percentage: 0.5041181980419552 First Eig Val: -2.6119279409514406e-15 First Gap: 0.3865677254145666 Largest Gap: 0.3865677254145666 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1978 CellsB: 115
+MutsA: 159 MutsB: 264
+Using SNV kernel only
+Jump Percentage: 0.9781506373232774 First Eig Val: -4.254362177237054e-15 First Gap: 0.9746584321008082 Largest Gap: 0.9746584321008082 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2085 CellsB: 8
+MutsA: 159 MutsB: 264
+Using SNV kernel only
+Jump Percentage: 0.9781506373232774 First Eig Val: -4.254362177237054e-15 First Gap: 0.9746584321008082 Largest Gap: 0.9746584321008082 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2085 Muts: 159 LostMuts: 0
+Node: 1 Cells: 1679 Muts: 264 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.5442910112640735 First Eig Val: 6.442058258365766e-16 First Gap: 0.36139774984926476 Largest Gap: 0.36139774984926476 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1960 CellsB: 133
+MutsA: 159 MutsB: 264
+Using SNV kernel only
+Jump Percentage: 0.9659463158319437 First Eig Val: 3.122875164214848e-16 First Gap: 0.9745627066444905 Largest Gap: 0.9745627066444905 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2081 CellsB: 12
+MutsA: 159 MutsB: 264
+Using SNV kernel only
+Jump Percentage: 0.9659463158319437 First Eig Val: 3.122875164214848e-16 First Gap: 0.9745627066444905 Largest Gap: 0.9745627066444905 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2081 Muts: 159 LostMuts: 0
+Node: 1 Cells: 1683 Muts: 264 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.5743759622652295 First Eig Val: -3.9512867261969175e-15 First Gap: 0.3144721578097596 Largest Gap: 0.3144721578097596 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1929 CellsB: 164
+MutsA: 158 MutsB: 265
+Using SNV kernel only
+Jump Percentage: 0.9029368944701278 First Eig Val: -9.363237988918418e-16 First Gap: 0.8859781859447954 Largest Gap: 0.8859781859447954 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2078 CellsB: 15
+MutsA: 158 MutsB: 265
+Using SNV kernel only
+Jump Percentage: 0.9029368944701278 First Eig Val: -9.363237988918418e-16 First Gap: 0.8859781859447954 Largest Gap: 0.8859781859447954 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2078 Muts: 158 LostMuts: 0
+Node: 1 Cells: 1686 Muts: 265 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 2 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2078 Muts: 158 LostMuts: 0
+Node: 1 Cells: 1686 Muts: 265 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4571659211461751
+Using SNV kernel only
+Jump Percentage: 0.5699338121538348 First Eig Val: -2.9403291867263846e-15 First Gap: 0.31386407437279595 Largest Gap: 0.31866100174119094 Number of Clusters:3
+start:0 iteration:0
+CellsA: 1919 CellsB: 159
+MutsA: 155 MutsB: 268
+Using SNV kernel only
+Jump Percentage: 0.719960807526157 First Eig Val: 2.8850094052329443e-15 First Gap: 0.966654045520642 Largest Gap: 0.966654045520642 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2055 CellsB: 23
+MutsA: 155 MutsB: 268
+Using SNV kernel only
+Jump Percentage: 0.719960807526157 First Eig Val: 2.8850094052329443e-15 First Gap: 0.966654045520642 Largest Gap: 0.966654045520642 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2055 Muts: 155 LostMuts: 0
+Node: 1 Cells: 1709 Muts: 268 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.7143957403449416 First Eig Val: 3.591301111745632e-15 First Gap: 0.363856464585766 Largest Gap: 0.363856464585766 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1954 CellsB: 124
+MutsA: 157 MutsB: 266
+Using SNV kernel only
+Jump Percentage: 0.8854464130445618 First Eig Val: 2.568936063284471e-15 First Gap: 0.9487378809424278 Largest Gap: 0.9487378809424278 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2073 CellsB: 5
+MutsA: 157 MutsB: 266
+Using SNV kernel only
+Jump Percentage: 0.8854464130445618 First Eig Val: 2.568936063284471e-15 First Gap: 0.9487378809424278 Largest Gap: 0.9487378809424278 Number of Clusters:1
+Using SNV kernel only
+Jump Percentage: 0.5827870187300145 First Eig Val: -2.329790379444323e-15 First Gap: 0.3421247484983665 Largest Gap: 0.3421247484983665 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1933 CellsB: 145
+MutsA: 156 MutsB: 267
+Using SNV kernel only
+Jump Percentage: 0.9735066628258879 First Eig Val: 1.0270542788289275e-15 First Gap: 0.9744662097133077 Largest Gap: 0.9744662097133077 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2068 CellsB: 10
+MutsA: 156 MutsB: 267
+Using SNV kernel only
+Jump Percentage: 0.9735066628258879 First Eig Val: 1.0270542788289275e-15 First Gap: 0.9744662097133077 Largest Gap: 0.9744662097133077 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2068 Muts: 156 LostMuts: 0
+Node: 1 Cells: 1696 Muts: 267 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2055 Muts: 155 LostMuts: 0
+Node: 1 Cells: 1709 Muts: 268 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.45207156742226773
+Using SNV kernel only
+Jump Percentage: 0.5691909211927735 First Eig Val: -4.406386110045283e-15 First Gap: 0.3360491063272634 Largest Gap: 0.3360491063272634 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1908 CellsB: 147
+MutsA: 155 MutsB: 268
+Using SNV kernel only
+Terminating cell clustering due to NANs in affinity matrix
+Using SNV kernel only
+Jump Percentage: 0.5676280950838766 First Eig Val: -4.5608590688861614e-15 First Gap: 0.3110477520694557 Largest Gap: 0.3110477520694557 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1890 CellsB: 165
+MutsA: 154 MutsB: 269
+Using SNV kernel only
+Jump Percentage: 0.9001127106829057 First Eig Val: 1.9335934809688294e-15 First Gap: 0.9736004379478649 Largest Gap: 0.9736004379478649 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2051 CellsB: 4
+MutsA: 154 MutsB: 269
+Using SNV kernel only
+Jump Percentage: 0.9001127106829057 First Eig Val: 1.9335934809688294e-15 First Gap: 0.9736004379478649 Largest Gap: 0.9736004379478649 Number of Clusters:1
+Using SNV kernel only
+Jump Percentage: 0.6018294584275824 First Eig Val: -1.9331324735416584e-15 First Gap: 0.32477904250653994 Largest Gap: 0.32477904250653994 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1918 CellsB: 137
+MutsA: 152 MutsB: 271
+Using SNV kernel only
+Jump Percentage: 0.8476878412797366 First Eig Val: -3.711026820761184e-15 First Gap: 0.9234510108409683 Largest Gap: 0.9234510108409683 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2040 CellsB: 15
+MutsA: 152 MutsB: 271
+Using SNV kernel only
+Jump Percentage: 0.8476878412797366 First Eig Val: -3.711026820761184e-15 First Gap: 0.9234510108409683 Largest Gap: 0.9234510108409683 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2040 Muts: 152 LostMuts: 0
+Node: 1 Cells: 1724 Muts: 271 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2040 Muts: 152 LostMuts: 0
+Node: 1 Cells: 1724 Muts: 271 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4441819349351751
+Using SNV kernel only
+Jump Percentage: 0.5782957263943874 First Eig Val: -4.726758941935385e-15 First Gap: 0.35159879524253124 Largest Gap: 0.35159879524253124 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1907 CellsB: 133
+MutsA: 150 MutsB: 273
+Using SNV kernel only
+Jump Percentage: 0.8815540179099117 First Eig Val: -4.245734762444632e-15 First Gap: 0.9479778750800446 Largest Gap: 0.9479778750800446 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2030 CellsB: 10
+MutsA: 150 MutsB: 273
+Using SNV kernel only
+Jump Percentage: 0.8815540179099117 First Eig Val: -4.245734762444632e-15 First Gap: 0.9479778750800446 Largest Gap: 0.9479778750800446 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2030 Muts: 150 LostMuts: 0
+Node: 1 Cells: 1734 Muts: 273 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.5558434326708455 First Eig Val: -3.691786324344301e-15 First Gap: 0.33348843237082787 Largest Gap: 0.33348843237082787 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1888 CellsB: 152
+MutsA: 152 MutsB: 271
+Using SNV kernel only
+Terminating cell clustering due to NANs in affinity matrix
+Using SNV kernel only
+Jump Percentage: 0.5464081743563933 First Eig Val: 1.6967603063138211e-15 First Gap: 0.38117891878542354 Largest Gap: 0.38117891878542354 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1922 CellsB: 118
+MutsA: 151 MutsB: 272
+Using SNV kernel only
+Jump Percentage: 0.8992657874905797 First Eig Val: 5.4861594082091076e-15 First Gap: 0.9734245444968161 Largest Gap: 0.9734245444968161 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2035 CellsB: 5
+MutsA: 151 MutsB: 272
+Using SNV kernel only
+Jump Percentage: 0.8992657874905797 First Eig Val: 5.4861594082091076e-15 First Gap: 0.9734245444968161 Largest Gap: 0.9734245444968161 Number of Clusters:1
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2030 Muts: 150 LostMuts: 0
+Node: 1 Cells: 1734 Muts: 273 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4398161523177929
+Using SNV kernel only
+Jump Percentage: 0.6097886450091161 First Eig Val: 9.97830222853986e-16 First Gap: 0.37254864816518474 Largest Gap: 0.37254864816518474 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1912 CellsB: 118
+MutsA: 147 MutsB: 276
+Using SNV kernel only
+Jump Percentage: 0.9749211358722367 First Eig Val: 3.814308270917352e-15 First Gap: 0.9495223745171505 Largest Gap: 0.9495223745171505 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2014 CellsB: 16
+MutsA: 147 MutsB: 276
+Using SNV kernel only
+Jump Percentage: 0.9749211358722367 First Eig Val: 3.814308270917352e-15 First Gap: 0.9495223745171505 Largest Gap: 0.9495223745171505 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2014 Muts: 147 LostMuts: 0
+Node: 1 Cells: 1750 Muts: 276 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.6620531743845256 First Eig Val: 2.642959635867923e-15 First Gap: 0.3468182758777539 Largest Gap: 0.3468182758777539 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1891 CellsB: 139
+MutsA: 149 MutsB: 274
+Using SNV kernel only
+Jump Percentage: 0.7957741490916033 First Eig Val: -1.2442249549478599e-15 First Gap: 0.9460600951663721 Largest Gap: 0.9460600951663721 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2026 CellsB: 4
+MutsA: 149 MutsB: 274
+Using SNV kernel only
+Jump Percentage: 0.7957741490916033 First Eig Val: -1.2442249549478599e-15 First Gap: 0.9460600951663721 Largest Gap: 0.9460600951663721 Number of Clusters:1
+Using SNV kernel only
+Jump Percentage: 0.6039495472809213 First Eig Val: -1.8570756911418014e-15 First Gap: 0.35360394919478555 Largest Gap: 0.35360394919478555 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1905 CellsB: 125
+MutsA: 147 MutsB: 276
+Using SNV kernel only
+Jump Percentage: 0.9773889769024944 First Eig Val: 5.493009754431199e-17 First Gap: 0.9494005042806548 Largest Gap: 0.9494005042806548 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2016 CellsB: 14
+MutsA: 147 MutsB: 276
+Using SNV kernel only
+Jump Percentage: 0.9773889769024944 First Eig Val: 5.493009754431199e-17 First Gap: 0.9494005042806548 Largest Gap: 0.9494005042806548 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2016 Muts: 147 LostMuts: 0
+Node: 1 Cells: 1748 Muts: 276 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2016 Muts: 147 LostMuts: 0
+Node: 1 Cells: 1748 Muts: 276 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4333770584352324
+Using SNV kernel only
+Jump Percentage: 0.5959579127361785 First Eig Val: 1.748106596543431e-15 First Gap: 0.3705308399772366 Largest Gap: 0.3705308399772366 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1897 CellsB: 119
+MutsA: 145 MutsB: 278
+Using SNV kernel only
+Jump Percentage: 0.9015988253376694 First Eig Val: 2.0799456134550567e-15 First Gap: 0.9481089380129147 Largest Gap: 0.9481089380129147 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2009 CellsB: 7
+MutsA: 145 MutsB: 278
+Using SNV kernel only
+Jump Percentage: 0.9015988253376694 First Eig Val: 2.0799456134550567e-15 First Gap: 0.9481089380129147 Largest Gap: 0.9481089380129147 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2009 Muts: 145 LostMuts: 0
+Node: 1 Cells: 1755 Muts: 278 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.5465015369604812 First Eig Val: 1.7635361487106153e-15 First Gap: 0.33910143955973715 Largest Gap: 0.33910143955973715 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1869 CellsB: 147
+MutsA: 147 MutsB: 276
+Using SNV kernel only
+Terminating cell clustering due to NANs in affinity matrix
+Using SNV kernel only
+Jump Percentage: 0.6121775127905813 First Eig Val: -3.2182624358541982e-15 First Gap: 0.33151962563553655 Largest Gap: 0.33151962563553655 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1880 CellsB: 136
+MutsA: 146 MutsB: 277
+Using SNV kernel only
+Jump Percentage: 0.8889466023978561 First Eig Val: 4.1412110681261516e-16 First Gap: 0.9729507914343547 Largest Gap: 0.9729507914343547 Number of Clusters:1
+start:2 iteration:1
+CellsA: 2009 CellsB: 7
+MutsA: 146 MutsB: 277
+Using SNV kernel only
+Jump Percentage: 0.8889466023978561 First Eig Val: 4.1412110681261516e-16 First Gap: 0.9729507914343547 Largest Gap: 0.9729507914343547 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2009 Muts: 146 LostMuts: 0
+Node: 1 Cells: 1755 Muts: 277 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2009 Muts: 145 LostMuts: 0
+Node: 1 Cells: 1755 Muts: 278 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.428905414866613
+Using SNV kernel only
+Jump Percentage: 0.6022981555029499 First Eig Val: 2.7448272062365127e-16 First Gap: 0.37835825588293603 Largest Gap: 0.37835825588293603 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1897 CellsB: 112
+MutsA: 144 MutsB: 279
+Using SNV kernel only
+Jump Percentage: 0.8980195393130838 First Eig Val: -1.780298405679844e-15 First Gap: 0.9730098155434385 Largest Gap: 0.9730098155434385 Number of Clusters:1
+start:0 iteration:1
+CellsA: 2004 CellsB: 5
+MutsA: 144 MutsB: 279
+Using SNV kernel only
+Jump Percentage: 0.8980195393130838 First Eig Val: -1.780298405679844e-15 First Gap: 0.9730098155434385 Largest Gap: 0.9730098155434385 Number of Clusters:1
+Using SNV kernel only
+Jump Percentage: 0.4946813734951993 First Eig Val: 1.6207467225942724e-15 First Gap: 0.32711228668629105 Largest Gap: 0.32711228668629105 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1867 CellsB: 142
+MutsA: 144 MutsB: 279
+Using SNV kernel only
+Jump Percentage: 0.700021018067825 First Eig Val: 2.7789066653465e-15 First Gap: 0.9660995334667781 Largest Gap: 0.9660995334667781 Number of Clusters:1
+start:1 iteration:1
+CellsA: 2003 CellsB: 6
+MutsA: 144 MutsB: 279
+Using SNV kernel only
+Jump Percentage: 0.700021018067825 First Eig Val: 2.7789066653465e-15 First Gap: 0.9660995334667781 Largest Gap: 0.9660995334667781 Number of Clusters:1
+adding tree to internal list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2003 Muts: 144 LostMuts: 0
+Node: 1 Cells: 1761 Muts: 279 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Using SNV kernel only
+Jump Percentage: 0.6392699190562348 First Eig Val: -3.7893340266818945e-15 First Gap: 0.38856822003447955 Largest Gap: 0.38856822003447955 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1904 CellsB: 105
+MutsA: 145 MutsB: 278
+Using SNV kernel only
+Terminating cell clustering due to NANs in affinity matrix
+adding tree to candidate list:
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2003 Muts: 144 LostMuts: 0
+Node: 1 Cells: 1761 Muts: 279 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4267191285280843
+Using SNV kernel only
+Jump Percentage: 0.5792691155756793 First Eig Val: -6.103805407281211e-16 First Gap: 0.3773362766508952 Largest Gap: 0.3773362766508952 Number of Clusters:1
+start:0 iteration:0
+CellsA: 1884 CellsB: 119
+MutsA: 144 MutsB: 279
+Using SNV kernel only
+Terminating cell clustering due to NANs in affinity matrix
+Using SNV kernel only
+Jump Percentage: 0.5839781380845351 First Eig Val: 2.8295237246983656e-15 First Gap: 0.37480171303850035 Largest Gap: 0.37480171303850035 Number of Clusters:1
+start:1 iteration:0
+CellsA: 1888 CellsB: 115
+MutsA: 144 MutsB: 279
+Using SNV kernel only
+Terminating cell clustering due to NANs in affinity matrix
+Using SNV kernel only
+Jump Percentage: 0.614326681460795 First Eig Val: -4.141259275607119e-15 First Gap: 0.370078473053345 Largest Gap: 0.370078473053345 Number of Clusters:1
+start:2 iteration:0
+CellsA: 1884 CellsB: 119
+MutsA: 143 MutsB: 280
+Using SNV kernel only
+Jump Percentage: 0.9771276689716096 First Eig Val: -3.5674006764191476e-15 First Gap: 0.9735140650585506 Largest Gap: 0.9735140650585506 Number of Clusters:1
+start:2 iteration:1
+CellsA: 1999 CellsB: 4
+MutsA: 143 MutsB: 280
+Using SNV kernel only
+Jump Percentage: 0.9771276689716096 First Eig Val: -3.5674006764191476e-15 First Gap: 0.9735140650585506 Largest Gap: 0.9735140650585506 Number of Clusters:1
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2649 Muts: 267 LostMuts: 0
+Node: 1 Cells: 1115 Muts: 156 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.6708308083378416
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2591 Muts: 243 LostMuts: 0
+Node: 1 Cells: 1173 Muts: 180 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.6498038006011635
+Clonal Tree 2 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2519 Muts: 235 LostMuts: 0
+Node: 1 Cells: 1245 Muts: 188 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.6219304925282334
+Clonal Tree 3 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2390 Muts: 227 LostMuts: 0
+Node: 1 Cells: 1374 Muts: 196 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.5805362054701029
+Clonal Tree 4 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2303 Muts: 209 LostMuts: 0
+Node: 1 Cells: 1461 Muts: 214 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.5519801171716325
+Clonal Tree 5 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2248 Muts: 196 LostMuts: 0
+Node: 1 Cells: 1516 Muts: 227 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.5296883738323164
+Clonal Tree 6 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2213 Muts: 188 LostMuts: 0
+Node: 1 Cells: 1551 Muts: 235 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.5147296788983224
+Clonal Tree 7 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2156 Muts: 176 LostMuts: 0
+Node: 1 Cells: 1608 Muts: 247 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.49303505661260477
+Clonal Tree 8 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2131 Muts: 170 LostMuts: 0
+Node: 1 Cells: 1633 Muts: 253 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.48145543197988633
+Clonal Tree 9 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2116 Muts: 167 LostMuts: 0
+Node: 1 Cells: 1648 Muts: 256 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4749849130138924
+Clonal Tree 10 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2105 Muts: 164 LostMuts: 0
+Node: 1 Cells: 1659 Muts: 259 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.46956696397419895
+Clonal Tree 11 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2093 Muts: 161 LostMuts: 0
+Node: 1 Cells: 1671 Muts: 262 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.46316835402956247
+Clonal Tree 12 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2078 Muts: 158 LostMuts: 0
+Node: 1 Cells: 1686 Muts: 265 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4571659211461751
+Clonal Tree 13 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2055 Muts: 155 LostMuts: 0
+Node: 1 Cells: 1709 Muts: 268 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.45207156742226773
+Clonal Tree 14 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2040 Muts: 152 LostMuts: 0
+Node: 1 Cells: 1724 Muts: 271 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4441819349351751
+Clonal Tree 15 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2030 Muts: 150 LostMuts: 0
+Node: 1 Cells: 1734 Muts: 273 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4398161523177929
+Clonal Tree 16 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2016 Muts: 147 LostMuts: 0
+Node: 1 Cells: 1748 Muts: 276 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4333770584352324
+Clonal Tree 17 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2009 Muts: 145 LostMuts: 0
+Node: 1 Cells: 1755 Muts: 278 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.428905414866613
+Clonal Tree 18 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2003 Muts: 144 LostMuts: 0
+Node: 1 Cells: 1761 Muts: 279 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Normalized Likelihood: -0.4267191285280843
+linear split norm likelihood best tree
+Clonal Tree 18 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2003 Muts: 144 LostMuts: 0
+Node: 1 Cells: 1761 Muts: 279 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Sprouted tree:
+Clonal Tree 18 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2003 Muts: 144 LostMuts: 0
+Node: 1 Cells: 1761 Muts: 279 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+Cells: 1761 Muts: 279 Ancestral Muts: 632 
+Number of subproblems remaining: 4
+func:'planting' args:[(<phertilizer.Phertilizer object at 0x7fde80bc5340>, deque([])), {}] took: 3554.2919 sec
+Planting phase complete!
+
+Starting grow phase....
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 3764 Muts: 423 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 113 LostMuts: 0
+Node: 1 Cells: 2649 Muts: 163 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 147 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+1432
+1432
+1432
+Clonal Tree 0 
+[(0, 1), (0, 2), (2, 3), (2, 4)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 0 Muts: 113 LostMuts: 0
+Node: 3 Cells: 2649 Muts: 163 LostMuts: 0
+Node: 4 Cells: 1115 Muts: 147 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 0 
+[(0, 1), (0, 2), (2, 3), (2, 4)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 0 Muts: 113 LostMuts: 0
+Node: 3 Cells: 2649 Muts: 163 LostMuts: 0
+Node: 4 Cells: 1115 Muts: 147 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 3764 Muts: 423 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 18 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 2003 Muts: 144 LostMuts: 0
+Node: 1 Cells: 1761 Muts: 279 LostMuts: 0
+Total Cells: 3764 Total Muts: 423
+1432
+1432
+1432
+Clonal Tree 0 
+[(0, 1), (0, 2), (2, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 2003 Muts: 144 LostMuts: 0
+Node: 3 Cells: 1761 Muts: 279 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 0 
+[(0, 1), (0, 2), (2, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 2003 Muts: 144 LostMuts: 0
+Node: 3 Cells: 1761 Muts: 279 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 3 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 3209 Muts: 1099 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 368 LostMuts: 0
+Node: 1 Cells: 2359 Muts: 470 LostMuts: 0
+Node: 2 Cells: 850 Muts: 261 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+1432
+1432
+1432
+Clonal Tree 3 
+[(0, 1), (1, 2), (1, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 2 Cells: 2359 Muts: 470 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 3 
+[(0, 1), (1, 2), (1, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 2 Cells: 2359 Muts: 470 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 3 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 3209 Muts: 1099 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 1 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 3209 Total Muts: 1099
+1432
+1432
+1432
+Clonal Tree 3 
+[(0, 1), (1, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 3 
+[(0, 1), (1, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 4 
+[(0, 1), (1, 2), (1, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 2 Cells: 2359 Muts: 470 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 15 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 176 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+1432
+1432
+1432
+Clonal Tree 4 
+[(0, 1), (1, 3), (1, 4), (4, 5), (4, 6)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Node: 4 Cells: 0 Muts: 15 LostMuts: 0
+Node: 5 Cells: 1244 Muts: 279 LostMuts: 0
+Node: 6 Cells: 1115 Muts: 176 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 4 
+[(0, 1), (1, 3), (1, 4), (4, 5), (4, 6)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Node: 4 Cells: 0 Muts: 15 LostMuts: 0
+Node: 5 Cells: 1244 Muts: 279 LostMuts: 0
+Node: 6 Cells: 1115 Muts: 176 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 4 
+[(0, 1), (1, 2), (1, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 2 Cells: 2359 Muts: 470 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 0 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1115 Muts: 191 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 2359 Total Muts: 470
+1432
+1432
+1432
+Clonal Tree 4 
+[(0, 1), (1, 3), (1, 4), (4, 5)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Node: 4 Cells: 1115 Muts: 191 LostMuts: 0
+Node: 5 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 4 
+[(0, 1), (1, 3), (1, 4), (4, 5)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Node: 4 Cells: 1115 Muts: 191 LostMuts: 0
+Node: 5 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 5 
+[(0, 1), (1, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 1 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 261 LostMuts: 0
+Node: 1 Cells: 850 Muts: 173 LostMuts: 0
+Node: 2 Cells: 1115 Muts: 193 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+1432
+1432
+1432
+Clonal Tree 5 
+[(0, 1), (1, 2), (2, 3), (2, 4)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 0 Muts: 261 LostMuts: 0
+Node: 3 Cells: 850 Muts: 173 LostMuts: 0
+Node: 4 Cells: 1115 Muts: 193 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 5 
+[(0, 1), (1, 2), (2, 3), (2, 4)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 0 Muts: 261 LostMuts: 0
+Node: 3 Cells: 850 Muts: 173 LostMuts: 0
+Node: 4 Cells: 1115 Muts: 193 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 5 
+[(0, 1), (1, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 1 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 560 Muts: 296 LostMuts: 0
+Node: 1 Cells: 1405 Muts: 331 LostMuts: 0
+Total Cells: 1965 Total Muts: 627
+1432
+1432
+1432
+Clonal Tree 5 
+[(0, 1), (1, 2), (2, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 560 Muts: 296 LostMuts: 0
+Node: 3 Cells: 1405 Muts: 331 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 5 
+[(0, 1), (1, 2), (2, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 560 Muts: 296 LostMuts: 0
+Node: 3 Cells: 1405 Muts: 331 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 9 
+[(0, 1), (1, 2), (2, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 560 Muts: 296 LostMuts: 0
+Node: 3 Cells: 1405 Muts: 331 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 96 LostMuts: 0
+Node: 1 Cells: 850 Muts: 154 LostMuts: 0
+Node: 2 Cells: 555 Muts: 81 LostMuts: 0
+Total Cells: 1405 Total Muts: 331
+1432
+1432
+1432
+Clonal Tree 9 
+[(0, 1), (1, 2), (2, 3), (3, 4), (3, 5)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 560 Muts: 296 LostMuts: 0
+Node: 3 Cells: 0 Muts: 96 LostMuts: 0
+Node: 4 Cells: 850 Muts: 154 LostMuts: 0
+Node: 5 Cells: 555 Muts: 81 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Clonal Tree 9 
+[(0, 1), (1, 2), (2, 3), (3, 4), (3, 5)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 560 Muts: 296 LostMuts: 0
+Node: 3 Cells: 0 Muts: 96 LostMuts: 0
+Node: 4 Cells: 850 Muts: 154 LostMuts: 0
+Node: 5 Cells: 555 Muts: 81 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+func:'grow' args:[(<phertilizer.Phertilizer object at 0x7fde80bc5340>,), {}] took: 0.0373 sec
+Growing phase complete!
+
+Identifying the maximum likelihood k-clonal tree....
+Finding the maximum likelihood tree out of 11 trees....
+Clonal Tree 0 
+[(0, 1), (0, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 3764 Muts: 423 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 0 LogLikelihood: 5549451.849121595
+Variant LogLikelihood: -53506.83449159065 
+RDR LogLikelihood: 5602958.683613186
+
+Clonal Tree 1 
+[(0, 1), (0, 2), (2, 3), (2, 4)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 0 Muts: 113 LostMuts: 0
+Node: 3 Cells: 2649 Muts: 163 LostMuts: 0
+Node: 4 Cells: 1115 Muts: 147 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 1 LogLikelihood: 6096135.834725482
+Variant LogLikelihood: -48976.17202171002 
+RDR LogLikelihood: 6145112.006747192
+
+Clonal Tree 2 
+[(0, 1), (0, 2), (2, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 0 Muts: 488 LostMuts: 0
+Node: 1 Cells: 850 Muts: 521 LostMuts: 0
+Node: 2 Cells: 2003 Muts: 144 LostMuts: 0
+Node: 3 Cells: 1761 Muts: 279 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 2 LogLikelihood: 5884898.319817297
+Variant LogLikelihood: -46819.494372448506 
+RDR LogLikelihood: 5931717.814189745
+
+Clonal Tree 3 
+[(0, 1)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 3209 Muts: 1099 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 3 LogLikelihood: 5031669.133835211
+Variant LogLikelihood: -54135.170610860674 
+RDR LogLikelihood: 5085804.304446072
+
+Clonal Tree 4 
+[(0, 1), (1, 2), (1, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 2 Cells: 2359 Muts: 470 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 4 LogLikelihood: 5789678.670079277
+Variant LogLikelihood: -43876.89443405699 
+RDR LogLikelihood: 5833555.564513333
+
+Clonal Tree 5 
+[(0, 1), (1, 2)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 1965 Muts: 627 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 5 LogLikelihood: 5531413.443870954
+Variant LogLikelihood: -44592.5047586847 
+RDR LogLikelihood: 5576005.948629639
+
+Clonal Tree 6 
+[(0, 1), (1, 3), (1, 4), (4, 5), (4, 6)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Node: 4 Cells: 0 Muts: 15 LostMuts: 0
+Node: 5 Cells: 1244 Muts: 279 LostMuts: 0
+Node: 6 Cells: 1115 Muts: 176 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 6 LogLikelihood: 6105757.430881909
+Variant LogLikelihood: -39354.57586528394 
+RDR LogLikelihood: 6145112.006747194
+
+Clonal Tree 7 
+[(0, 1), (1, 3), (1, 4), (4, 5)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Node: 4 Cells: 1115 Muts: 191 LostMuts: 0
+Node: 5 Cells: 1244 Muts: 279 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 7 LogLikelihood: 6102906.423589062
+Variant LogLikelihood: -42205.58315813172 
+RDR LogLikelihood: 6145112.006747194
+
+Clonal Tree 8 
+[(0, 1), (1, 2), (2, 3), (2, 4)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 0 Muts: 261 LostMuts: 0
+Node: 3 Cells: 850 Muts: 173 LostMuts: 0
+Node: 4 Cells: 1115 Muts: 193 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 8 LogLikelihood: 6101920.843735118
+Variant LogLikelihood: -43191.163012074736 
+RDR LogLikelihood: 6145112.006747194
+
+Clonal Tree 9 
+[(0, 1), (1, 2), (2, 3)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 560 Muts: 296 LostMuts: 0
+Node: 3 Cells: 1405 Muts: 331 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 9 LogLikelihood: 5718112.562485922
+Variant LogLikelihood: -43732.9764492436 
+RDR LogLikelihood: 5761845.538935166
+
+Clonal Tree 10 
+[(0, 1), (1, 2), (2, 3), (3, 4), (3, 5)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 1244 Muts: 472 LostMuts: 0
+Node: 2 Cells: 560 Muts: 296 LostMuts: 0
+Node: 3 Cells: 0 Muts: 96 LostMuts: 0
+Node: 4 Cells: 850 Muts: 154 LostMuts: 0
+Node: 5 Cells: 555 Muts: 81 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+
+Tree: 10 LogLikelihood: 6101395.354214245
+Variant LogLikelihood: -43716.65253294804 
+RDR LogLikelihood: 6145112.006747194
+
+\Phertilizer Tree....
+Clonal Tree 6 
+[(0, 1), (1, 3), (1, 4), (4, 5), (4, 6)] 
+Loss Nodes:0
+Node: 0 Cells: 1405 Muts: 333 LostMuts: 0
+Node: 1 Cells: 0 Muts: 368 LostMuts: 0
+Node: 3 Cells: 850 Muts: 261 LostMuts: 0
+Node: 4 Cells: 0 Muts: 15 LostMuts: 0
+Node: 5 Cells: 1244 Muts: 279 LostMuts: 0
+Node: 6 Cells: 1115 Muts: 176 LostMuts: 0
+Total Cells: 4614 Total Muts: 1432
+Saving files.....
+Thanks for planting a tree! See you later, friend.
