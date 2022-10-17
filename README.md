@@ -1,5 +1,4 @@
 ## Phertilizer: growing a clonal tree from ultra-low coverage single-cell DNA sequencing data of tumors
-This is the accompanyinying data repository. The Phertilizer code repostiory is located at https://github.com/elkebir-group/phertilizer.
 
 
 ![Overview of Phertilizer](overview.png)
@@ -8,6 +7,7 @@ This is the accompanyinying data repository. The Phertilizer code repostiory is 
 (b) Ultra-low coverage single-cell DNA sequencing produces total read counts and variant read counts for n cells and m SNV loci, and low dimension embedding for the same cells for an input set of binned read counts.
 (c) Phertilizer infers a clonal tree, SNV genotypes and cell clustering with maximum posterior probability.
 
+This is the accompanyinying data repository. The Phertilizer code repostiory is located at https://github.com/elkebir-group/phertilizer.
 
 ## Available Data
 1. DLP+ Ovarian Cell Lines from [Laks et al. (2019)](https://doi.org/10.1016/j.cell.2019.10.026)
