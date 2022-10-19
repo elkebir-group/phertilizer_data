@@ -11,7 +11,7 @@ This is the accompanyinying data repository. The Phertilizer code repostiory is 
 
 ## Available Data
 1. DLP+ Ovarian Cell Lines from [Laks et al. (2019)](https://doi.org/10.1016/j.cell.2019.10.026)
-2. ACT Breast Tumors from [Minussi et al. (2020)](https://doi.org/10.1038/s41586-021-03357-x) preprocessed input files: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7225578.svg)](https://doi.org/10.5281/zenodo.7225578)
-3. Simulation input files  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7225578.svg)](https://doi.org/10.5281/zenodo.7225578)
+2. ACT Breast Tumors from [Minussi et al. (2020)](https://doi.org/10.1038/s41586-021-03357-x) input files: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7225578.svg)](https://doi.org/10.5281/zenodo.7225578)
+3. Simulation input files: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7225578.svg)](https://doi.org/10.5281/zenodo.7225578)
 4. Simulation output files
 
